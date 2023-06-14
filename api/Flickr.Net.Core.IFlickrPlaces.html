@@ -1,0 +1,1307 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFlickrPlaces
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFlickrPlaces
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.IFlickrPlaces">
+  
+  
+  <h1 id="Flickr_Net_Core_IFlickrPlaces" data-uid="Flickr.Net.Core.IFlickrPlaces" class="text-break">Interface IFlickrPlaces
+  </h1>
+  <div class="markdown level0 summary"><p>The flickr places.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.html">Flickr.Net.Core</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_IFlickrPlaces_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFlickrPlaces</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_FindAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.FindAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L499">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_FindAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.FindAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_FindAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.FindAsync(System.String,CancellationToken)">FindAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of places which contain the query string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; FindAsync(string query, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">query</span></td>
+        <td><p>The string to search for. Must not be null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_FindByLatLonAsync_System_Double_System_Double_GeoAccuracy_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.FindByLatLonAsync(System.Double%2CSystem.Double%2CGeoAccuracy%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L509">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_FindByLatLonAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.FindByLatLonAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_FindByLatLonAsync_System_Double_System_Double_GeoAccuracy_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.FindByLatLonAsync(System.Double,System.Double,GeoAccuracy,CancellationToken)">FindByLatLonAsync(Double, Double, GeoAccuracy, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns a place based on the input latitude and longitude.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Place&gt; FindByLatLonAsync(double latitude, double longitude, GeoAccuracy accuracy = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The latitude, between -180 and 180.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>The longitude, between -90 and 90.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GeoAccuracy</span></td>
+        <td><span class="parametername">accuracy</span></td>
+        <td><p>The level the locality will be for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Flickr.Net.Core.Entities.Place.html">Place</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetChildrenWithPhotosPublicAsync_Flickr_Net_Core_Entities_PlaceId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetChildrenWithPhotosPublicAsync(Flickr.Net.Core.Entities.PlaceId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L517">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetChildrenWithPhotosPublicAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetChildrenWithPhotosPublicAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetChildrenWithPhotosPublicAsync_Flickr_Net_Core_Entities_PlaceId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetChildrenWithPhotosPublicAsync(Flickr.Net.Core.Entities.PlaceId,CancellationToken)">GetChildrenWithPhotosPublicAsync(PlaceId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of locations with public photos that are parented by a Where on Earth (WOE) or
+Places ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; GetChildrenWithPhotosPublicAsync(PlaceId placeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.PlaceId.html">PlaceId</a></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetChildrenWithPhotosPublicAsync_Flickr_Net_Core_Entities_WoeId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetChildrenWithPhotosPublicAsync(Flickr.Net.Core.Entities.WoeId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L525">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetChildrenWithPhotosPublicAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetChildrenWithPhotosPublicAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetChildrenWithPhotosPublicAsync_Flickr_Net_Core_Entities_WoeId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetChildrenWithPhotosPublicAsync(Flickr.Net.Core.Entities.WoeId,CancellationToken)">GetChildrenWithPhotosPublicAsync(WoeId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of locations with public photos that are parented by a Where on Earth (WOE) or
+Places ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; GetChildrenWithPhotosPublicAsync(WoeId woeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.WoeId.html">WoeId</a></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where On Earth (WOE) ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetInfoAsync_Flickr_Net_Core_Entities_PlaceId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetInfoAsync(Flickr.Net.Core.Entities.PlaceId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L532">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetInfoAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetInfoAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetInfoAsync_Flickr_Net_Core_Entities_PlaceId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetInfoAsync(Flickr.Net.Core.Entities.PlaceId,CancellationToken)">GetInfoAsync(PlaceId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get informations about a place.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceInfo&gt; GetInfoAsync(PlaceId placeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.PlaceId.html">PlaceId</a></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Flickr.Net.Core.Entities.PlaceInfo.html">PlaceInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetInfoAsync_Flickr_Net_Core_Entities_WoeId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetInfoAsync(Flickr.Net.Core.Entities.WoeId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L539">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetInfoAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetInfoAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetInfoAsync_Flickr_Net_Core_Entities_WoeId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetInfoAsync(Flickr.Net.Core.Entities.WoeId,CancellationToken)">GetInfoAsync(WoeId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get informations about a place.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceInfo&gt; GetInfoAsync(WoeId woeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.WoeId.html">WoeId</a></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where On Earth (WOE) ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Flickr.Net.Core.Entities.PlaceInfo.html">PlaceInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetInfoByUrlAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetInfoByUrlAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L548">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetInfoByUrlAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetInfoByUrlAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetInfoByUrlAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetInfoByUrlAsync(System.String,CancellationToken)">GetInfoByUrlAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Lookup information about a place, by its flickr.com/places URL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceInfo&gt; GetInfoByUrlAsync(string url, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>A flickr.com/places URL in the form of /country/region/city. For example: /Canada/Quebec/Montreal</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Flickr.Net.Core.Entities.PlaceInfo.html">PlaceInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetPlaceTypesAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetPlaceTypesAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L558">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetPlaceTypesAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetPlaceTypesAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetPlaceTypesAsync_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetPlaceTypesAsync(CancellationToken)">GetPlaceTypesAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of valid Place Type key/value pairs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceTypeInfoCollection&gt; GetPlaceTypesAsync(CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceTypeInfoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Flickr_Net_Core_IFlickrPlaces_GetPlaceTypesAsync_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>All Flickr.Net methods use the <see cref="!:PlaceType"></see> enumeration so this method doesn't
+serve much purpose.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetShapeHistoryAsync_Flickr_Net_Core_Entities_PlaceId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetShapeHistoryAsync(Flickr.Net.Core.Entities.PlaceId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L566">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetShapeHistoryAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetShapeHistoryAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetShapeHistoryAsync_Flickr_Net_Core_Entities_PlaceId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetShapeHistoryAsync(Flickr.Net.Core.Entities.PlaceId,CancellationToken)">GetShapeHistoryAsync(PlaceId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return an historical list of all the shape data generated for a Places or Where on Earth
+(WOE) ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ShapeDataCollection&gt; GetShapeHistoryAsync(PlaceId placeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.PlaceId.html">PlaceId</a></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">ShapeDataCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetShapeHistoryAsync_Flickr_Net_Core_Entities_WoeId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetShapeHistoryAsync(Flickr.Net.Core.Entities.WoeId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L574">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetShapeHistoryAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetShapeHistoryAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetShapeHistoryAsync_Flickr_Net_Core_Entities_WoeId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetShapeHistoryAsync(Flickr.Net.Core.Entities.WoeId,CancellationToken)">GetShapeHistoryAsync(WoeId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return an historical list of all the shape data generated for a Places or Where on Earth
+(WOE) ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ShapeDataCollection&gt; GetShapeHistoryAsync(WoeId woeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.WoeId.html">WoeId</a></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where On Earth (WOE) ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">ShapeDataCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_GetTopPlacesListAsync_PlaceType_System_Nullable_DateTime__System_String_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.GetTopPlacesListAsync(PlaceType%2CSystem.Nullable%7BDateTime%7D%2CSystem.String%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L588">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_GetTopPlacesListAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetTopPlacesListAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_GetTopPlacesListAsync_PlaceType_System_Nullable_DateTime__System_String_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.GetTopPlacesListAsync(PlaceType,System.Nullable{DateTime},System.String,System.String,CancellationToken)">GetTopPlacesListAsync(PlaceType, Nullable&lt;DateTime&gt;, String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return the top 100 most geotagged places for a day.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; GetTopPlacesListAsync(PlaceType placeType, DateTime? date = null, string placeId = null, string woeId = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlaceType</span></td>
+        <td><span class="parametername">placeType</span></td>
+        <td><p>The type for a specific place type to cluster photos by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">date</span></td>
+        <td><p>A valid date. The default is yesterday.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>Limit your query to only those top places belonging to a specific Flickr Places identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>Limit your query to only those top places belonging to a specific Where on Earth (WOE) identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_PlacesForBoundingBoxAsync_BoundaryBox_PlaceType_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.PlacesForBoundingBoxAsync(BoundaryBox%2CPlaceType%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L597">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_PlacesForBoundingBoxAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForBoundingBoxAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_PlacesForBoundingBoxAsync_BoundaryBox_PlaceType_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForBoundingBoxAsync(BoundaryBox,PlaceType,CancellationToken)">PlacesForBoundingBoxAsync(BoundaryBox, PlaceType, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of the top 100 unique places clustered by a given placetype for set of tags or
+machine tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; PlacesForBoundingBoxAsync(BoundaryBox boundaryBox, PlaceType placeType, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BoundaryBox</span></td>
+        <td><span class="parametername">boundaryBox</span></td>
+        <td><p>The boundary box to search for places in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlaceType</span></td>
+        <td><span class="parametername">placeType</span></td>
+        <td><p>The ID for a specific place type to cluster photos by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_PlacesForContactsAsync_PlaceType_System_String_System_String_System_Int32_ContactSearch_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.PlacesForContactsAsync(PlaceType%2CSystem.String%2CSystem.String%2CSystem.Int32%2CContactSearch%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L618">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_PlacesForContactsAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForContactsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_PlacesForContactsAsync_PlaceType_System_String_System_String_System_Int32_ContactSearch_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForContactsAsync(PlaceType,System.String,System.String,System.Int32,ContactSearch,System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},CancellationToken)">PlacesForContactsAsync(PlaceType, String, String, Int32, ContactSearch, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of the top 100 unique places clustered by a given placetype for set of tags or
+machine tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; PlacesForContactsAsync(PlaceType placeType = null, string woeId = null, string placeId = null, int threshold = 0, ContactSearch contactType = null, DateTime? minUploadDate = null, DateTime? maxUploadDate = null, DateTime? minTakenDate = null, DateTime? maxTakenDate = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlaceType</span></td>
+        <td><span class="parametername">placeType</span></td>
+        <td><p>The ID for a specific place type to cluster photos by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where on Earth identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td><p>The minimum number of photos that a place type must have to be included. If the number of
+photos is lowered then the parent place type for that place will be used.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ContactSearch</span></td>
+        <td><span class="parametername">contactType</span></td>
+        <td><p>The type of contacts to return places for. Either all, or friends and family only.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minUploadDate</span></td>
+        <td><p>Minimum upload date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxUploadDate</span></td>
+        <td><p>Maximum upload date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minTakenDate</span></td>
+        <td><p>Minimum taken date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxTakenDate</span></td>
+        <td><p>Maximum taken date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_PlacesForTagsAsync_PlaceType_System_String_System_String_System_Int32_IEnumerable_System_String__TagMode_IEnumerable_System_String__MachineTagMode_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.PlacesForTagsAsync(PlaceType%2CSystem.String%2CSystem.String%2CSystem.Int32%2CIEnumerable%7BSystem.String%7D%2CTagMode%2CIEnumerable%7BSystem.String%7D%2CMachineTagMode%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L646">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_PlacesForTagsAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForTagsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_PlacesForTagsAsync_PlaceType_System_String_System_String_System_Int32_IEnumerable_System_String__TagMode_IEnumerable_System_String__MachineTagMode_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForTagsAsync(PlaceType,System.String,System.String,System.Int32,IEnumerable{System.String},TagMode,IEnumerable{System.String},MachineTagMode,System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},CancellationToken)">PlacesForTagsAsync(PlaceType, String, String, Int32, IEnumerable&lt;String&gt;, TagMode, IEnumerable&lt;String&gt;, MachineTagMode, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of the top 100 unique places clustered by a given placetype for set of tags or
+machine tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; PlacesForTagsAsync(PlaceType placeType, string woeId = null, string placeId = null, int threshold = 0, IEnumerable&lt;string&gt; tags = null, TagMode tagMode = null, IEnumerable&lt;string&gt; machineTags = null, MachineTagMode machineTagMode = null, DateTime? minUploadDate = null, DateTime? maxUploadDate = null, DateTime? minTakenDate = null, DateTime? maxTakenDate = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlaceType</span></td>
+        <td><span class="parametername">placeType</span></td>
+        <td><p>The ID for a specific place type to cluster photos by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where on Earth identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td><p>The minimum number of photos that a place type must have to be included. If the number of
+photos is lowered then the parent place type for that place will be used.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">tags</span></td>
+        <td><p>A list of tags. Photos with one or more of the tags listed will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TagMode</span></td>
+        <td><span class="parametername">tagMode</span></td>
+        <td><p>Either 'any' for an OR combination of tags, or 'all' for an AND combination. Defaults to
+'any' if not specified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">machineTags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MachineTagMode</span></td>
+        <td><span class="parametername">machineTagMode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minUploadDate</span></td>
+        <td><p>Minimum upload date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxUploadDate</span></td>
+        <td><p>Maximum upload date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minTakenDate</span></td>
+        <td><p>Minimum taken date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxTakenDate</span></td>
+        <td><p>Maximum taken date.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_PlacesForUserAsync_PlaceType_System_String_System_String_System_Int32_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.PlacesForUserAsync(PlaceType%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L678">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_PlacesForUserAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForUserAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_PlacesForUserAsync_PlaceType_System_String_System_String_System_Int32_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.PlacesForUserAsync(PlaceType,System.String,System.String,System.Int32,System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},CancellationToken)">PlacesForUserAsync(PlaceType, String, String, Int32, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the places of a particular type that the authenticated user has geotagged photos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceCollection&gt; PlacesForUserAsync(PlaceType placeType = null, string woeId = null, string placeId = null, int threshold = 0, DateTime? minUploadDate = null, DateTime? maxUploadDate = null, DateTime? minTakenDate = null, DateTime? maxTakenDate = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlaceType</span></td>
+        <td><span class="parametername">placeType</span></td>
+        <td><p>The type of places to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where on Earth identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td><p>The minimum number of photos that a place type must have to be included. If the number of
+photos is lowered then the parent place type for that place will be used. For example if you
+only have 3 photos taken in the locality of Montreal (WOE ID 3534) but your threshold is set
+to 5 then those photos will be &quot;rolled up&quot; and included instead with a place record for the
+region of Quebec (WOE ID 2344924).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minUploadDate</span></td>
+        <td><p>Minimum upload date. Photos with an upload date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxUploadDate</span></td>
+        <td><p>Maximum upload date. Photos with an upload date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minTakenDate</span></td>
+        <td><p>Minimum taken date. Photos with an taken date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxTakenDate</span></td>
+        <td><p>Maximum taken date. Photos with an taken date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_TagsForPlaceAsync_Flickr_Net_Core_Entities_PlaceId_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.TagsForPlaceAsync(Flickr.Net.Core.Entities.PlaceId%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L699">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_TagsForPlaceAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.TagsForPlaceAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_TagsForPlaceAsync_Flickr_Net_Core_Entities_PlaceId_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.TagsForPlaceAsync(Flickr.Net.Core.Entities.PlaceId,System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},CancellationToken)">TagsForPlaceAsync(PlaceId, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of the top 100 unique tags for a Flickr Places.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TagCollection&gt; TagsForPlaceAsync(PlaceId placeId, DateTime? minUploadDate = null, DateTime? maxUploadDate = null, DateTime? minTakenDate = null, DateTime? maxTakenDate = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.PlaceId.html">PlaceId</a></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minUploadDate</span></td>
+        <td><p>Minimum upload date. Photos with an upload date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxUploadDate</span></td>
+        <td><p>Maximum upload date. Photos with an upload date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minTakenDate</span></td>
+        <td><p>Minimum taken date. Photos with an taken date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxTakenDate</span></td>
+        <td><p>Maximum taken date. Photos with an taken date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">TagCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces_TagsForPlaceAsync_Flickr_Net_Core_Entities_WoeId_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces.TagsForPlaceAsync(Flickr.Net.Core.Entities.WoeId%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L720">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPlaces_TagsForPlaceAsync_" data-uid="Flickr.Net.Core.IFlickrPlaces.TagsForPlaceAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPlaces_TagsForPlaceAsync_Flickr_Net_Core_Entities_WoeId_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPlaces.TagsForPlaceAsync(Flickr.Net.Core.Entities.WoeId,System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},CancellationToken)">TagsForPlaceAsync(WoeId, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of the top 100 unique tags for Earth (WOE) ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TagCollection&gt; TagsForPlaceAsync(WoeId woeId, DateTime? minUploadDate = null, DateTime? maxUploadDate = null, DateTime? minTakenDate = null, DateTime? maxTakenDate = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Entities.WoeId.html">WoeId</a></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where on Earth identifier to use to filter photo clusters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minUploadDate</span></td>
+        <td><p>Minimum upload date. Photos with an upload date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxUploadDate</span></td>
+        <td><p>Maximum upload date. Photos with an upload date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minTakenDate</span></td>
+        <td><p>Minimum taken date. Photos with an taken date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxTakenDate</span></td>
+        <td><p>Maximum taken date. Photos with an taken date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">TagCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPlaces.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPlaces%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Places_Async.cs/#L491" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

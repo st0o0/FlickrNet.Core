@@ -1,0 +1,725 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFlickrPeople
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFlickrPeople
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.IFlickrPeople">
+  
+  
+  <h1 id="Flickr_Net_Core_IFlickrPeople" data-uid="Flickr.Net.Core.IFlickrPeople" class="text-break">Interface IFlickrPeople
+  </h1>
+  <div class="markdown level0 summary"><p>The flickr people.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.html">Flickr.Net.Core</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_IFlickrPeople_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFlickrPeople</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_FindByEmailAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.FindByEmailAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L192">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_FindByEmailAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.FindByEmailAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_FindByEmailAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.FindByEmailAsync(System.String,CancellationToken)">FindByEmailAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Used to fid a flickr users details by specifying their email address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;FoundUser&gt; FindByEmailAsync(string emailAddress, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">emailAddress</span></td>
+        <td><p>The email address to search on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">FoundUser</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Exceptions.FlickrApiException.html">FlickrApiException</a></td>
+        <td><p>A FlickrApiException is raised if the email address is not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_FindByUserNameAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.FindByUserNameAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L202">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_FindByUserNameAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.FindByUserNameAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_FindByUserNameAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.FindByUserNameAsync(System.String,CancellationToken)">FindByUserNameAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns a <see cref="!:FoundUser"></see> object matching the screen name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;FoundUser&gt; FindByUserNameAsync(string userName, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userName</span></td>
+        <td><p>The screen name or username of the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">FoundUser</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flickr.Net.Core.Exceptions.FlickrApiException.html">FlickrApiException</a></td>
+        <td><p>A FlickrApiException is raised if the email address is not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_GetGroupsAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.GetGroupsAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L209">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_GetGroupsAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.GetGroupsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_GetGroupsAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.GetGroupsAsync(System.String,CancellationToken)">GetGroupsAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of groups the user is a member of.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GroupInfoCollection&gt; GetGroupsAsync(string userId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The user whose groups you wish to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">GroupInfoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_GetInfoAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.GetInfoAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L216">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_GetInfoAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.GetInfoAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_GetInfoAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.GetInfoAsync(System.String,CancellationToken)">GetInfoAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the <see cref="!:Person"></see> object for the given user id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Person&gt; GetInfoAsync(string userId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The user id to find.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Person</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_GetLimitsAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.GetLimitsAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L223">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_GetLimitsAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.GetLimitsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_GetLimitsAsync_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.GetLimitsAsync(CancellationToken)">GetLimitsAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns the limits for a person. See <see cref="!:PersonLimits"></see> for more details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PersonLimits&gt; GetLimitsAsync(CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PersonLimits</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_GetPhotosAsync_System_String_SafetyLevel_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__ContentTypeSearch_PrivacyFilter_PhotoSearchExtras_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.GetPhotosAsync(System.String%2CSafetyLevel%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D%2CContentTypeSearch%2CPrivacyFilter%2CPhotoSearchExtras%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L256">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_GetPhotosAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.GetPhotosAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_GetPhotosAsync_System_String_SafetyLevel_System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__System_Nullable_DateTime__ContentTypeSearch_PrivacyFilter_PhotoSearchExtras_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.GetPhotosAsync(System.String,SafetyLevel,System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},System.Nullable{DateTime},ContentTypeSearch,PrivacyFilter,PhotoSearchExtras,System.Int32,System.Int32,CancellationToken)">GetPhotosAsync(String, SafetyLevel, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;, ContentTypeSearch, PrivacyFilter, PhotoSearchExtras, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return photos from the given user's photostream. Only photos visible to the calling user
+will be returned. This method must be authenticated;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PhotoCollection&gt; GetPhotosAsync(string userId, SafetyLevel safeSearch = null, DateTime? minUploadDate = null, DateTime? maxUploadDate = null, DateTime? minTakenDate = null, DateTime? maxTakenDate = null, ContentTypeSearch contentType = null, PrivacyFilter privacyFilter = null, PhotoSearchExtras extras = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The NSID of the user who's photos to return. A value of &quot;me&quot; will return the calling user's photos.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SafetyLevel</span></td>
+        <td><span class="parametername">safeSearch</span></td>
+        <td><p>Safe search setting</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minUploadDate</span></td>
+        <td><p>Minimum upload date. Photos with an upload date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxUploadDate</span></td>
+        <td><p>Maximum upload date. Photos with an upload date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">minTakenDate</span></td>
+        <td><p>Minimum taken date. Photos with an taken date greater than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">maxTakenDate</span></td>
+        <td><p>Maximum taken date. Photos with an taken date less than or equal to this value will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ContentTypeSearch</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>Content Type setting</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PrivacyFilter</span></td>
+        <td><span class="parametername">privacyFilter</span></td>
+        <td><p>Return photos only matching a certain privacy level.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PhotoSearchExtras</span></td>
+        <td><span class="parametername">extras</span></td>
+        <td><p>A list of extra information to fetch for each returned record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of photos to return per page. If this argument is omitted, it defaults to 100. The
+maximum allowed value is 500.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PhotoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_GetPhotosOfAsync_System_String_PhotoSearchExtras_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.GetPhotosOfAsync(System.String%2CPhotoSearchExtras%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L266">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_GetPhotosOfAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.GetPhotosOfAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_GetPhotosOfAsync_System_String_PhotoSearchExtras_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.GetPhotosOfAsync(System.String,PhotoSearchExtras,System.Int32,System.Int32,CancellationToken)">GetPhotosOfAsync(String, PhotoSearchExtras, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the photos containing the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PeoplePhotoCollection&gt; GetPhotosOfAsync(string userId, PhotoSearchExtras extras = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The user ID to get photos of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PhotoSearchExtras</span></td>
+        <td><span class="parametername">extras</span></td>
+        <td><p>A list of extras to return for each photo.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of photos to return. Default is 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>The number of photos to return per page.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PeoplePhotoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_GetPublicGroupsAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.GetPublicGroupsAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L279">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_GetPublicGroupsAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.GetPublicGroupsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_GetPublicGroupsAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.GetPublicGroupsAsync(System.String,CancellationToken)">GetPublicGroupsAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of public groups for a user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GroupInfoCollection&gt; GetPublicGroupsAsync(string userId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The user id to get groups for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">GroupInfoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople_GetUploadStatusAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople.GetUploadStatusAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L272">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPeople_GetUploadStatusAsync_" data-uid="Flickr.Net.Core.IFlickrPeople.GetUploadStatusAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPeople_GetUploadStatusAsync_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPeople.GetUploadStatusAsync(CancellationToken)">GetUploadStatusAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the upload status of the authenticated user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;UserStatus&gt; GetUploadStatusAsync(CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">UserStatus</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPeople.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPeople%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_People_Async.cs/#L182" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

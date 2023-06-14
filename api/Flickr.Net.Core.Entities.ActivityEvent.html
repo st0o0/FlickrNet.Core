@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ActivityEvent
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ActivityEvent
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.Entities.ActivityEvent">
+  
+  
+  <h1 id="Flickr_Net_Core_Entities_ActivityEvent" data-uid="Flickr.Net.Core.Entities.ActivityEvent" class="text-break">Class ActivityEvent
+  </h1>
+  <div class="markdown level0 summary"><p>A user event on a photo, e.g. Comment or Favourite etc.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ActivityEvent</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.Entities.html">Flickr.Net.Core.Entities</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_Entities_ActivityEvent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ActivityEvent : IFlickrParsable</code></pre>
+  </div>
+  <h5 id="Flickr_Net_Core_Entities_ActivityEvent_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Includes the user's Flickr ID, name, the date of the activity and its content (if a comment).</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_CommentId.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.CommentId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L54">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_CommentId_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.CommentId*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_CommentId" data-uid="Flickr.Net.Core.Entities.ActivityEvent.CommentId">CommentId</h4>
+  <div class="markdown level1 summary"><p>If this event is a comment then this is the ID of the comment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CommentId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_DateAdded.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.DateAdded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L44">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_DateAdded_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.DateAdded*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_DateAdded" data-uid="Flickr.Net.Core.Entities.ActivityEvent.DateAdded">DateAdded</h4>
+  <div class="markdown level1 summary"><p>The date the note or comment was added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime DateAdded { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_EventType.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.EventType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L14">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_EventType_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.EventType*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_EventType" data-uid="Flickr.Net.Core.Entities.ActivityEvent.EventType">EventType</h4>
+  <div class="markdown level1 summary"><p>The <see cref="!:ActivityEventType"></see> of the event, either Comment or Note.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActivityEventType EventType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ActivityEventType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_GalleryId.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.GalleryId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L79">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_GalleryId_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.GalleryId*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_GalleryId" data-uid="Flickr.Net.Core.Entities.ActivityEvent.GalleryId">GalleryId</h4>
+  <div class="markdown level1 summary"><p>If this is a gallery activityits then this will contain the ID of the gallery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GalleryId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_GroupId.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.GroupId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L64">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_GroupId_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.GroupId*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_GroupId" data-uid="Flickr.Net.Core.Entities.ActivityEvent.GroupId">GroupId</h4>
+  <div class="markdown level1 summary"><p>If this is group invite, then this is the group ID of the group it has been invited to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GroupId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_GroupName.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.GroupName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L69">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_GroupName_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.GroupName*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_GroupName" data-uid="Flickr.Net.Core.Entities.ActivityEvent.GroupName">GroupName</h4>
+  <div class="markdown level1 summary"><p>If this is group invite, then this is the name of the group it has been invited to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GroupName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_IconFarm.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.IconFarm%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L39">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_IconFarm_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.IconFarm*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_IconFarm" data-uid="Flickr.Net.Core.Entities.ActivityEvent.IconFarm">IconFarm</h4>
+  <div class="markdown level1 summary"><p>Farm for the buddy icon for the event user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IconFarm { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_IconServer.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.IconServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L34">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_IconServer_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.IconServer*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_IconServer" data-uid="Flickr.Net.Core.Entities.ActivityEvent.IconServer">IconServer</h4>
+  <div class="markdown level1 summary"><p>Server for the buddy icon for the event user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IconServer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_IsMuted.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.IsMuted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L74">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_IsMuted_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.IsMuted*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_IsMuted" data-uid="Flickr.Net.Core.Entities.ActivityEvent.IsMuted">IsMuted</h4>
+  <div class="markdown level1 summary"><p>Is the activity type muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsMuted { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_NoteId.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.NoteId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L59">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_NoteId_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.NoteId*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_NoteId" data-uid="Flickr.Net.Core.Entities.ActivityEvent.NoteId">NoteId</h4>
+  <div class="markdown level1 summary"><p>If this is a note activity then this is the ID of the note.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NoteId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_RealName.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.RealName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L29">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_RealName_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.RealName*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_RealName" data-uid="Flickr.Net.Core.Entities.ActivityEvent.RealName">RealName</h4>
+  <div class="markdown level1 summary"><p>The real name of the user who made the comment or note.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RealName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_UserId.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.UserId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L19">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_UserId_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.UserId*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_UserId" data-uid="Flickr.Net.Core.Entities.ActivityEvent.UserId">UserId</h4>
+  <div class="markdown level1 summary"><p>The user id of the user who made the comment or note.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string UserId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_UserName.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.UserName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L24">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_UserName_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.UserName*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_UserName" data-uid="Flickr.Net.Core.Entities.ActivityEvent.UserName">UserName</h4>
+  <div class="markdown level1 summary"><p>The screen name of the user who made the comment or note.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string UserName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent_Value.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L49">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_Entities_ActivityEvent_Value_" data-uid="Flickr.Net.Core.Entities.ActivityEvent.Value*"></a>
+  <h4 id="Flickr_Net_Core_Entities_ActivityEvent_Value" data-uid="Flickr.Net.Core.Entities.ActivityEvent.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The text of the note or comment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Entities_ActivityEvent.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Entities.ActivityEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Entities/ActivityEvent.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

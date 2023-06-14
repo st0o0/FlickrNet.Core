@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFlickrUpload
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFlickrUpload
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.IFlickrUpload">
+  
+  
+  <h1 id="Flickr_Net_Core_IFlickrUpload" data-uid="Flickr.Net.Core.IFlickrUpload" class="text-break">Interface IFlickrUpload
+  </h1>
+  <div class="markdown level0 summary"><p>The flickr upload.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.html">Flickr.Net.Core</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_IFlickrUpload_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFlickrUpload</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrUpload_ReplacePictureAsync_Stream_System_String_System_String_IProgress_System_Double__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrUpload.ReplacePictureAsync(Stream%2CSystem.String%2CSystem.String%2CIProgress%7BSystem.Double%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Upload_Async.cs/#L199">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrUpload_ReplacePictureAsync_" data-uid="Flickr.Net.Core.IFlickrUpload.ReplacePictureAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrUpload_ReplacePictureAsync_Stream_System_String_System_String_IProgress_System_Double__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrUpload.ReplacePictureAsync(Stream,System.String,System.String,IProgress{System.Double},CancellationToken)">ReplacePictureAsync(Stream, String, String, IProgress&lt;Double&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Replace an existing photo on Flickr.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; ReplacePictureAsync(Stream stream, string fileName, string photoId, IProgress&lt;double&gt; progress = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The <see cref="!:Stream"></see> object containing the photo to be uploaded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The filename of the file to replace the existing item with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The ID of the photo to replace.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IProgress</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrUpload_UploadPictureAsync_Stream_System_String_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_ContentType_SafetyLevel_HiddenFromSearch_IProgress_System_Double__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrUpload.UploadPictureAsync(Stream%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CContentType%2CSafetyLevel%2CHiddenFromSearch%2CIProgress%7BSystem.Double%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Upload_Async.cs/#L186">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrUpload_UploadPictureAsync_" data-uid="Flickr.Net.Core.IFlickrUpload.UploadPictureAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrUpload_UploadPictureAsync_Stream_System_String_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_ContentType_SafetyLevel_HiddenFromSearch_IProgress_System_Double__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrUpload.UploadPictureAsync(Stream,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,ContentType,SafetyLevel,HiddenFromSearch,IProgress{System.Double},CancellationToken)">UploadPictureAsync(Stream, String, String, String, String, Boolean, Boolean, Boolean, ContentType, SafetyLevel, HiddenFromSearch, IProgress&lt;Double&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>UploadPicture method that does all the uploading work.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; UploadPictureAsync(Stream stream, string fileName, string title = null, string description = null, string tags = null, bool isPublic = false, bool isFamily = false, bool isFriend = false, ContentType contentType = null, SafetyLevel safetyLevel = null, HiddenFromSearch hiddenFromSearch = null, IProgress&lt;double&gt; progress = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The <see cref="!:Stream"></see> object containing the pphoto to be uploaded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The filename of the file to upload. Used as the title if title is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title of the photo (optional).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description of the photograph (optional).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tags</span></td>
+        <td><p>The tags for the photograph (optional).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPublic</span></td>
+        <td><p>false for private, true for public.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isFamily</span></td>
+        <td><p>true if visible to family.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isFriend</span></td>
+        <td><p>true if visible to friends only.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ContentType</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>The content type of the photo, i.e. Photo, Screenshot or Other.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SafetyLevel</span></td>
+        <td><span class="parametername">safetyLevel</span></td>
+        <td><p>The safety level of the photo, i.e. Safe, Moderate or Restricted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">HiddenFromSearch</span></td>
+        <td><span class="parametername">hiddenFromSearch</span></td>
+        <td><p>Is the photo hidden from public searches.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IProgress</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrUpload.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrUpload%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Upload_Async.cs/#L166" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Enum PhotoSearchExtras
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Enum PhotoSearchExtras
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.Enums.PhotoSearchExtras">
+  
+  
+  <h1 id="Flickr_Net_Core_Enums_PhotoSearchExtras" data-uid="Flickr.Net.Core.Enums.PhotoSearchExtras" class="text-break">Enum PhotoSearchExtras
+  </h1>
+  <div class="markdown level0 summary"><p>Which photo search extras to be included. Can be combined to include more than one value.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.Enums.html">Flickr.Net.Core.Enums</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_Enums_PhotoSearchExtras_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum PhotoSearchExtras : long</code></pre>
+  </div>
+  <h5 id="Flickr_Net_Core_Enums_PhotoSearchExtras_examples"><strong>Examples</strong></h5>
+  <p>The following code sets options to return both the license and owner name along with the other
+search results.</p>
+<pre><code>PhotoSearchOptions options = new PhotoSearchOptions();
+options.Extras = PhotoSearchExtras.License &amp; PhotoSearchExtras.OwnerName</code></pre>
+
+  <h3 id="fields">Fields
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_All">All</td>
+        <td><p>Returns all the above information.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_AllUrls">AllUrls</td>
+        <td><p>Returns the URL for all the images, as well as the image sizes.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_CountComments">CountComments</td>
+        <td><p>THe number of comments for this image.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_CountFaves">CountFaves</td>
+        <td><p>The number of favorites for this image.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_DateTaken">DateTaken</td>
+        <td><p>Returned the date the photo was taken.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_DateUploaded">DateUploaded</td>
+        <td><p>Returned the date the photos was uploaded.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Description">Description</td>
+        <td><p>Returns the description for the image.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Geo">Geo</td>
+        <td><p>Geo-location information</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_IconServer">IconServer</td>
+        <td><p>Returns the server for the buddy icon for this user.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Large1600Url">Large1600Url</td>
+        <td><p>Large (1600 on largest size) image url.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Large2048Url">Large2048Url</td>
+        <td><p>Large (2048 on largest size) image url.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_LargeSquareUrl">LargeSquareUrl</td>
+        <td><p>Large (150x150) square image.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_LargeUrl">LargeUrl</td>
+        <td><p>Returns the URL for the large image, as well as the image size.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_LastUpdated">LastUpdated</td>
+        <td><p>Returns the date the photo was last updated.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_License">License</td>
+        <td><p>Returns a license.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_MachineTags">MachineTags</td>
+        <td><p>Machine encoded tags</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Media">Media</td>
+        <td><p>Returns the media type of the photo, currently either 'photo' or 'video'.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Medium640Url">Medium640Url</td>
+        <td><p>Returns the URL for the medium 640 image, as well as the image size.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Medium800Url">Medium800Url</td>
+        <td><p>Medium (800 on largest size) image url.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_MediumUrl">MediumUrl</td>
+        <td><p>Returns the URL for the medium image, as well as the image size.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_None">None</td>
+        <td><p>No extras selected.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_OriginalDimensions">OriginalDimensions</td>
+        <td><p>Return the Dimensions of the Original Image.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_OriginalFormat">OriginalFormat</td>
+        <td><p>Returns the extension for the original format of this photo.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_OriginalUrl">OriginalUrl</td>
+        <td><p>Returns the URL for the original image, as well as the image size.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_OwnerName">OwnerName</td>
+        <td><p>Returns the name of the owner of the photo.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_PathAlias">PathAlias</td>
+        <td><p>The path alias, if defined by the user (replaces the users NSID in the flickr URL for their photostream).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Rotation">Rotation</td>
+        <td><p>Returns information on rotation of images compared to original</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Small320Url">Small320Url</td>
+        <td><p>Small (320 on longest side) image.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_SmallUrl">SmallUrl</td>
+        <td><p>Returns the URL for the small image, as well as the image size.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_SquareUrl">SquareUrl</td>
+        <td><p>Returns the URL for the square image, as well as the image size.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Tags">Tags</td>
+        <td><p>Returns Tags attribute</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_ThumbnailUrl">ThumbnailUrl</td>
+        <td><p>Returns the URL for the thumbnail image, as well as the image size.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Usage">Usage</td>
+        <td><p>Returns the details of CanBlog, CanDownload etc.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Views">Views</td>
+        <td><p>Returns the number of views for a photo.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Flickr_Net_Core_Enums_PhotoSearchExtras_Visibility">Visibility</td>
+        <td><p>Returns the details for IsPublic, IsFamily and IsFriend.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_Enums_PhotoSearchExtras.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.Enums.PhotoSearchExtras%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Enums/PhotoSearchExtras.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,879 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFlickrPhotosGeo
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFlickrPhotosGeo
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.IFlickrPhotosGeo">
+  
+  
+  <h1 id="Flickr_Net_Core_IFlickrPhotosGeo" data-uid="Flickr.Net.Core.IFlickrPhotosGeo" class="text-break">Interface IFlickrPhotosGeo
+  </h1>
+  <div class="markdown level0 summary"><p>The flickr photos geo.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.html">Flickr.Net.Core</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_IFlickrPhotosGeo_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFlickrPhotosGeo</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_PlaceId_System_Double_System_Double_GeoAccuracy_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.BatchCorrectLocationAsync(PlaceId%2CSystem.Double%2CSystem.Double%2CGeoAccuracy%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L226">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.BatchCorrectLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_PlaceId_System_Double_System_Double_GeoAccuracy_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.BatchCorrectLocationAsync(PlaceId,System.Double,System.Double,GeoAccuracy,CancellationToken)">BatchCorrectLocationAsync(PlaceId, Double, Double, GeoAccuracy, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Correct the places hierarchy for all the photos for a user at a given latitude, longitude
+and accuracy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BatchCorrectLocationAsync(PlaceId placeId, double latitude, double longitude, GeoAccuracy accuracy, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlaceId</span></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The latitude of the photos to be update whose valid range is -90 to 90. Anything more than 6
+decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>The longitude of the photos to be updated whose valid range is -180 to 180. Anything more
+than 6 decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GeoAccuracy</span></td>
+        <td><span class="parametername">accuracy</span></td>
+        <td><p>Recorded accuracy level of the photos to be updated. World level is 1, Country is ~3, Region
+~6, City ~11, Street ~16. Current range is 1-16. Defaults to 16 if not specified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_PlaceId_System_Double_System_Double_GeoAccuracy_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Batch corrections are processed in a delayed queue so it may take a few minutes before the
+changes are reflected in a user's photos.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_WoeId_System_Double_System_Double_GeoAccuracy_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.BatchCorrectLocationAsync(WoeId%2CSystem.Double%2CSystem.Double%2CGeoAccuracy%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L251">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.BatchCorrectLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_WoeId_System_Double_System_Double_GeoAccuracy_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.BatchCorrectLocationAsync(WoeId,System.Double,System.Double,GeoAccuracy,CancellationToken)">BatchCorrectLocationAsync(WoeId, Double, Double, GeoAccuracy, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Correct the places hierarchy for all the photos for a user at a given latitude, longitude
+and accuracy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BatchCorrectLocationAsync(WoeId woeId, double latitude, double longitude, GeoAccuracy accuracy, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">WoeId</span></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where On Earth (WOE) ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The latitude of the photos to be update whose valid range is -90 to 90. Anything more than 6
+decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>The longitude of the photos to be updated whose valid range is -180 to 180. Anything more
+than 6 decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GeoAccuracy</span></td>
+        <td><span class="parametername">accuracy</span></td>
+        <td><p>Recorded accuracy level of the photos to be updated. World level is 1, Country is ~3, Region
+~6, City ~11, Street ~16. Current range is 1-16. Defaults to 16 if not specified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Flickr_Net_Core_IFlickrPhotosGeo_BatchCorrectLocationAsync_WoeId_System_Double_System_Double_GeoAccuracy_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Batch corrections are processed in a delayed queue so it may take a few minutes before the
+changes are reflected in a user's photos.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_CorrectLocationAsync_System_String_PlaceId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.CorrectLocationAsync(System.String%2CPlaceId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L260">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_CorrectLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.CorrectLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_CorrectLocationAsync_System_String_PlaceId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.CorrectLocationAsync(System.String,PlaceId,CancellationToken)">CorrectLocationAsync(String, PlaceId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Correct the places hierarchy for a given photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CorrectLocationAsync(string photoId, PlaceId placeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The ID of the photo whose WOE location is being corrected.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlaceId</span></td>
+        <td><span class="parametername">placeId</span></td>
+        <td><p>A Flickr Places ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_CorrectLocationAsync_System_String_WoeId_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.CorrectLocationAsync(System.String%2CWoeId%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L269">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_CorrectLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.CorrectLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_CorrectLocationAsync_System_String_WoeId_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.CorrectLocationAsync(System.String,WoeId,CancellationToken)">CorrectLocationAsync(String, WoeId, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Correct the places hierarchy for a given photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CorrectLocationAsync(string photoId, WoeId woeId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The ID of the photo whose WOE location is being corrected.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">WoeId</span></td>
+        <td><span class="parametername">woeId</span></td>
+        <td><p>A Where On Earth (WOE) ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_GetLocationAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.GetLocationAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L277">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_GetLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.GetLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_GetLocationAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.GetLocationAsync(System.String,CancellationToken)">GetLocationAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns the location data for a give photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PlaceInfo&gt; GetLocationAsync(string photoId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The ID of the photo to return the location information for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PlaceInfo</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_GetPermsAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.GetPermsAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L285">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_GetPermsAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.GetPermsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_GetPermsAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.GetPermsAsync(System.String,CancellationToken)">GetPermsAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get permissions for a photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GeoPermissions&gt; GetPermsAsync(string photoId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The id of the photo to get permissions for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">GeoPermissions</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_PhotosForLocationAsync_System_Double_System_Double_GeoAccuracy_PhotoSearchExtras_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.PhotosForLocationAsync(System.Double%2CSystem.Double%2CGeoAccuracy%2CPhotoSearchExtras%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L310">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_PhotosForLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.PhotosForLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_PhotosForLocationAsync_System_Double_System_Double_GeoAccuracy_PhotoSearchExtras_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.PhotosForLocationAsync(System.Double,System.Double,GeoAccuracy,PhotoSearchExtras,System.Int32,System.Int32,CancellationToken)">PhotosForLocationAsync(Double, Double, GeoAccuracy, PhotoSearchExtras, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return a list of photos for a user at a specific latitude, longitude and accuracy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PhotoCollection&gt; PhotosForLocationAsync(double latitude, double longitude, GeoAccuracy accuracy = null, PhotoSearchExtras extras = null, int perPage = 0, int page = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The latitude whose valid range is -90 to 90. Anything more than 6 decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>The longitude whose valid range is -180 to 180. Anything more than 6 decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GeoAccuracy</span></td>
+        <td><span class="parametername">accuracy</span></td>
+        <td><p>Recorded accuracy level of the location information. World level is 1, Country is ~3, Region
+~6, City ~11, Street ~16. Current range is 1-16. Defaults to 16 if not specified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PhotoSearchExtras</span></td>
+        <td><span class="parametername">extras</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of photos to return per page. If this argument is omitted, it defaults to 100. The
+maximum allowed value is 500.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PhotoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_RemoveLocationAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.RemoveLocationAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L318">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_RemoveLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.RemoveLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_RemoveLocationAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.RemoveLocationAsync(System.String,CancellationToken)">RemoveLocationAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Removes Location information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveLocationAsync(string photoId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The photo ID of the photo to remove information from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_SetContextAsync_System_String_GeoContext_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.SetContextAsync(System.String%2CGeoContext%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L334">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_SetContextAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.SetContextAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_SetContextAsync_System_String_GeoContext_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.SetContextAsync(System.String,GeoContext,CancellationToken)">SetContextAsync(String, GeoContext, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Indicate the state of a photo's geotagginess beyond latitude and longitude.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetContextAsync(string photoId, GeoContext context, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The id of the photo to set context data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GeoContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>Context is a numeric value representing the photo's geotagginess beyond latitude and
+longitude. For example, you may wish to indicate that a photo was taken &quot;indoors&quot; or &quot;outdoors&quot;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Flickr_Net_Core_IFlickrPhotosGeo_SetContextAsync_System_String_GeoContext_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note : photos passed to this method must already be geotagged (using the
+flickr.photos.geo.setLocation method).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_SetLocationAsync_System_String_System_Double_System_Double_GeoAccuracy_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.SetLocationAsync(System.String%2CSystem.Double%2CSystem.Double%2CGeoAccuracy%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L351">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_SetLocationAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.SetLocationAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_SetLocationAsync_System_String_System_Double_System_Double_GeoAccuracy_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.SetLocationAsync(System.String,System.Double,System.Double,GeoAccuracy,CancellationToken)">SetLocationAsync(String, Double, Double, GeoAccuracy, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the geo location for a photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetLocationAsync(string photoId, double latitude, double longitude, GeoAccuracy accuracy = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The ID of the photo to set to location for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The latitude of the geo location. A double number ranging from -180.00 to 180.00. Digits
+beyond 6 decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>The longitude of the geo location. A double number ranging from -180.00 to 180.00. Digits
+beyond 6 decimal places will be truncated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GeoAccuracy</span></td>
+        <td><span class="parametername">accuracy</span></td>
+        <td><p>The accuracy of the photos geo location.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo_SetPermsAsync_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo.SetPermsAsync(System.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L363">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrPhotosGeo_SetPermsAsync_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.SetPermsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrPhotosGeo_SetPermsAsync_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrPhotosGeo.SetPermsAsync(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CancellationToken)">SetPermsAsync(String, Boolean, Boolean, Boolean, Boolean, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Set the permission for who can see geotagged photos on Flickr.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetPermsAsync(string photoId, bool isPublic, bool isContact, bool isFamily, bool isFriend, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The ID of the photo permissions to update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPublic</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isContact</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isFamily</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isFriend</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrPhotosGeo.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrPhotosGeo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Photos_Geo_Async.cs/#L201" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

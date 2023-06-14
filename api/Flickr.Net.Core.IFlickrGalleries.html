@@ -1,0 +1,783 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFlickrGalleries
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFlickrGalleries
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.IFlickrGalleries">
+  
+  
+  <h1 id="Flickr_Net_Core_IFlickrGalleries" data-uid="Flickr.Net.Core.IFlickrGalleries" class="text-break">Interface IFlickrGalleries
+  </h1>
+  <div class="markdown level0 summary"><p>The flickr galleries.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.html">Flickr.Net.Core</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_IFlickrGalleries_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFlickrGalleries</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_AddPhotoAsync_System_String_System_String_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.AddPhotoAsync(System.String%2CSystem.String%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L200">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_AddPhotoAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.AddPhotoAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_AddPhotoAsync_System_String_System_String_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.AddPhotoAsync(System.String,System.String,System.String,CancellationToken)">AddPhotoAsync(String, String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Add a photo to a gallery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddPhotoAsync(string galleryId, string photoId, string comment = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">galleryId</span></td>
+        <td><p>The ID of the gallery to add a photo to.
+Note: this is the compound ID returned in methods like <a class="xref" href="Flickr.Net.Core.IFlickrGalleries.html#Flickr_Net_Core_IFlickrGalleries_GetListAsync_System_String_System_Int32_System_Int32_CancellationToken_">GetListAsync(String, Int32, Int32, CancellationToken)</a>, and <a class="xref" href="Flickr.Net.Core.IFlickrGalleries.html#Flickr_Net_Core_IFlickrGalleries_GetListForPhotoAsync_System_String_System_Int32_System_Int32_CancellationToken_">GetListForPhotoAsync(String, Int32, Int32, CancellationToken)</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The photo ID to add to the gallery</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">comment</span></td>
+        <td><p>A short comment or story to accompany the photo.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_CreateAsync_System_String_System_String_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.CreateAsync(System.String%2CSystem.String%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L209">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_CreateAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.CreateAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_CreateAsync_System_String_System_String_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.CreateAsync(System.String,System.String,System.String,CancellationToken)">CreateAsync(String, String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Create a new gallery for the calling user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CreateAsync(string title, string description, string primaryPhotoId = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The name of the gallery.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>A short description for the gallery.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">primaryPhotoId</span></td>
+        <td><p>The first photo to add to your gallery.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_EditMetaAsync_System_String_System_String_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.EditMetaAsync(System.String%2CSystem.String%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L218">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_EditMetaAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.EditMetaAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_EditMetaAsync_System_String_System_String_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.EditMetaAsync(System.String,System.String,System.String,CancellationToken)">EditMetaAsync(String, String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Modify the meta-data for a gallery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task EditMetaAsync(string galleryId, string title, string description = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">galleryId</span></td>
+        <td><p>The gallery ID to update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The new title for the gallery.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The new description for the gallery.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_EditPhotoAsync_System_String_System_String_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.EditPhotoAsync(System.String%2CSystem.String%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L233">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_EditPhotoAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.EditPhotoAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_EditPhotoAsync_System_String_System_String_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.EditPhotoAsync(System.String,System.String,System.String,CancellationToken)">EditPhotoAsync(String, String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Edit the comment for a gallery photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task EditPhotoAsync(string galleryId, string photoId, string comment, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">galleryId</span></td>
+        <td><p>The ID of the gallery to add a photo to.
+Note: this is the compound ID returned in methods like <a class="xref" href="Flickr.Net.Core.IFlickrGalleries.html#Flickr_Net_Core_IFlickrGalleries_GetListAsync_System_String_System_Int32_System_Int32_CancellationToken_">GetListAsync(String, Int32, Int32, CancellationToken)</a>, and <a class="xref" href="Flickr.Net.Core.IFlickrGalleries.html#Flickr_Net_Core_IFlickrGalleries_GetListForPhotoAsync_System_String_System_Int32_System_Int32_CancellationToken_">GetListForPhotoAsync(String, Int32, Int32, CancellationToken)</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The photo ID to add to the gallery.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">comment</span></td>
+        <td><p>The updated comment the photo.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_EditPhotosAsync_System_String_System_String_IEnumerable_System_String__CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.EditPhotosAsync(System.String%2CSystem.String%2CIEnumerable%7BSystem.String%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L252">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_EditPhotosAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.EditPhotosAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_EditPhotosAsync_System_String_System_String_IEnumerable_System_String__CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.EditPhotosAsync(System.String,System.String,IEnumerable{System.String},CancellationToken)">EditPhotosAsync(String, String, IEnumerable&lt;String&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Modify the photos in a gallery. Use this method to add, remove and re-order photos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task EditPhotosAsync(string galleryId, string primaryPhotoId, IEnumerable&lt;string&gt; photoIds, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">galleryId</span></td>
+        <td><p>The id of the gallery to modify. The gallery must belong to the calling user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">primaryPhotoId</span></td>
+        <td><p>The id of the photo to use as the 'primary' photo for the gallery. This id must also be
+passed along in photo_ids list argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">photoIds</span></td>
+        <td><p>An enumeration of photo ids to include in the gallery. They will appear in the set in the
+order sent. This list must contain the primary photo id. This list of photos replaces the
+existing list.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_GetInfoAsync_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.GetInfoAsync(System.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L260">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_GetInfoAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetInfoAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_GetInfoAsync_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetInfoAsync(System.String,CancellationToken)">GetInfoAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get the information about a gallery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Gallery&gt; GetInfoAsync(string galleryId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">galleryId</span></td>
+        <td><p>The gallery ID you are requesting information for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Gallery</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_GetListAsync_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.GetListAsync(System.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L270">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_GetListAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetListAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_GetListAsync_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetListAsync(System.String,System.Int32,System.Int32,CancellationToken)">GetListAsync(String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of galleries for the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GalleryCollection&gt; GetListAsync(string userId, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The user to return the galleries for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">GalleryCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_GetListForPhotoAsync_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.GetListForPhotoAsync(System.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L286">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_GetListForPhotoAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetListForPhotoAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_GetListForPhotoAsync_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetListForPhotoAsync(System.String,System.Int32,System.Int32,CancellationToken)">GetListForPhotoAsync(String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return the list of galleries to which a photo has been added. Galleries are returned sorted
+by date which the photo was added to the gallery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GalleryCollection&gt; GetListForPhotoAsync(string photoId, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The ID of the photo to fetch a list of galleries for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of galleries to return per page. If this argument is omitted, it defaults to 100. The
+maximum allowed value is 500.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">GalleryCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_GetPhotosAsync_System_String_PhotoSearchExtras_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.GetPhotosAsync(System.String%2CPhotoSearchExtras%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L295">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_GetPhotosAsync_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetPhotosAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_GetPhotosAsync_System_String_PhotoSearchExtras_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.GetPhotosAsync(System.String,PhotoSearchExtras,CancellationToken)">GetPhotosAsync(String, PhotoSearchExtras, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Return the list of photos for a gallery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GalleryPhotoCollection&gt; GetPhotosAsync(string galleryId, PhotoSearchExtras extras = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">galleryId</span></td>
+        <td><p>The ID of the gallery of photos to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PhotoSearchExtras</span></td>
+        <td><span class="parametername">extras</span></td>
+        <td><p>A list of extra information to fetch for each returned record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">GalleryPhotoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries_RemovePhoto_System_String_System_String_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries.RemovePhoto(System.String%2CSystem.String%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L305">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrGalleries_RemovePhoto_" data-uid="Flickr.Net.Core.IFlickrGalleries.RemovePhoto*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrGalleries_RemovePhoto_System_String_System_String_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrGalleries.RemovePhoto(System.String,System.String,System.String,CancellationToken)">RemovePhoto(String, String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Remove a photo from a gallery (and optionally update the gallery description).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemovePhoto(string galleryId, string photoId, string fullResponse = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">galleryId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullResponse</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrGalleries.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrGalleries%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Galleries_Async.cs/#L185" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

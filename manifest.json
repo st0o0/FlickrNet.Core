@@ -1,0 +1,3353 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/Flickr.Net/Flickr.Net/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Configuration.FlickrConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Configuration.FlickrConfiguration.html",
+          "hash": "gDMg4YM6A88BRX4wSi+Zdw21mFvbWRnNxTenzZOYw7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Configuration.html",
+          "hash": "pIrhFpyj/n9BemmdZsaNGJxp4qoJjFOwvZeFUszheZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.ActivityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.ActivityEvent.html",
+          "hash": "7asg3J5J8V2sBfMeu1bOJzWRKOa1ME2tu0W1cvgUxdw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.ActivityItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.ActivityItem.html",
+          "hash": "+UzdeSeZPzs0d+rtLWWvhUtMLI/lVdn+wB8rISF1yEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.AllContexts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.AllContexts.html",
+          "hash": "3z48U6a16mxGd1GyBazKO5GMCxeFQ6S/KLYKfx5FAM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Auth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Auth.html",
+          "hash": "h0iicorvN1s/cRNzbMVYTBVg6m7AlGrtiYD4onytDpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Blog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Blog.html",
+          "hash": "zVqunYG6iYeiezf2t1YdLCZdWTZXlrGNV10s6tEpoCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.BlogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.BlogService.html",
+          "hash": "gU1WUVSHTHnDWGciqgocov5XwoA7t8f1nEbWydFx55I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Brand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Brand.html",
+          "hash": "st3gLNp3/IL32TkfCKdRliyiWB8+vCTpPboJF9diBSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Camera.html",
+          "hash": "BEC+iyPNBhhfX8Po2/4hLacqvT7cN7qFsoknGPPzdeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Cluster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Cluster.html",
+          "hash": "hTaVq++RjhQDDd92PD/yex8cBWelRNMPM6wJi3UjdsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collection.html",
+          "hash": "CpMA6S4+0Zh6gs8mEYM0TGw10o8VL5fw/b3DUQhpNes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.CollectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.CollectionInfo.html",
+          "hash": "S887BmUY+SgJmn2NR0Zya1qt3iuFdPLWF2/NWdhwg4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.CollectionSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.CollectionSet.html",
+          "hash": "Qug8e4k1hqMZcm/qkugFCV6roPqo9RWWZ9ztlkUxwp8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.ActivityItemCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.ActivityItemCollection.html",
+          "hash": "icQNFACJeH5KJobO3f3QbcqtrXdAC6RWpSZ+LVLkwRc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.BlogCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.BlogCollection.html",
+          "hash": "q6GuOr00uwuGGPVkhSevids4LGxlDoKB9vMPKD+nz8Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.BlogServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.BlogServiceCollection.html",
+          "hash": "99i0C5O5Q3WcHTDDhbfUvfC4ZKaWxzlMx0KiNN41L3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.BrandCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.BrandCollection.html",
+          "hash": "ToLL59SwSc/Eb5yU9FeApkaI4s55XEWat/t+EGrQHik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.CameraCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.CameraCollection.html",
+          "hash": "JWdnPrT9h3gq+RVy+eTDmkybWO+n05zGAVthj5n2U2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.ClusterCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.ClusterCollection.html",
+          "hash": "CgzCyvSHxCA/cdb79NeBSAxQDdzEzJd1DFDN6Ty65xc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.CollectionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.CollectionCollection.html",
+          "hash": "blHfT/VhGXS83XgE0+p9OwVMWc29JzzdZbbZvUUjh2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.ContactCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.ContactCollection.html",
+          "hash": "XcN6YvzULAidoHaLgVAkYUpA0BMRFNRvlMD25S/tJTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.CsvFileCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.CsvFileCollection.html",
+          "hash": "oruLukzfFNAvQwzVsBTjD+NbqMICjSRzQjfB+4RYn7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.ExifTagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.ExifTagCollection.html",
+          "hash": "Xh2Zf8PD9vLQSu+SENm0VvX3OTUR7zq0as1WfbO/EIo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.GalleryCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.GalleryCollection.html",
+          "hash": "aZU3oVc4mi9XCzBloNAnHKVp2G0fO3GwkfSjaqHx2j4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.GalleryPhotoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.GalleryPhotoCollection.html",
+          "hash": "76yOevT1FGPkU05OrH63ospiFSJCAfkssCvIBSKOdA0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.GroupInfoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.GroupInfoCollection.html",
+          "hash": "xwzFaJWAbQnycHMBt+aHeqMNM4e4U6JjtLL40m8Ihl4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.GroupSearchResultCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.GroupSearchResultCollection.html",
+          "hash": "0miad07t7ZXklFRod9PSgX4vrlW2SpzKeC8uHw3uHmY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.HotTagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.HotTagCollection.html",
+          "hash": "k246tPxSS6814kn9KHbz485fNnZ/+7TDtXZR0aQONME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.InstitutionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.InstitutionCollection.html",
+          "hash": "HWop8PHnDQLH51nn99r+8s23WtS1qw3xvUQEL6v/eQw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.LicenseCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.LicenseCollection.html",
+          "hash": "KZ+jMfzfJldUOPkiQ6F/9UmRQuPPxxEPRqiP6miA99o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.MemberCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.MemberCollection.html",
+          "hash": "oky0S/aR/axi8OJ3VeEd221v+TwmIC8vW0gUQYIemT8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.MemberGroupInfoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.MemberGroupInfoCollection.html",
+          "hash": "eK3GY6yH1zSSz4y5k3/hRDeO6A+0RQdCpLwaysNwWl8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.MethodCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.MethodCollection.html",
+          "hash": "/Y7xR0yXuGcbnhoacWjfh9O09kzHMep1N6dcCEl9D1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.NamespaceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.NamespaceCollection.html",
+          "hash": "r0KcwDkQuxI0UN8MmSj66rIPyq7fPTS15aKmPeGlmcU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PagedPhotoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PagedPhotoCollection.html",
+          "hash": "CxiRixue71zWlq9Cy9ykqw5hd97KijeYodj4luyPuAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PairCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PairCollection.html",
+          "hash": "Kp5Y/r9lB/QViii8S+VNu1N9l6CNk/vqHeCDm5xd0W4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PandaPhotoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PandaPhotoCollection.html",
+          "hash": "LVUyWG7bNSN9vAEYGmwQKooee7Bi8ZwRwFFrnGcV/+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PeoplePhotoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PeoplePhotoCollection.html",
+          "hash": "P2ZapmHHZmVHkg5z4YXRG170KUWHS+w8d+uuzq7fREc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoCollection.html",
+          "hash": "7R+J2tnY9QQwL3bIAPeCjNrqZU5lCOfUcByuYN4G6FY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoCommentCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoCommentCollection.html",
+          "hash": "F36CG68fgF4ykyyQOU/5FQQk1h4/HzURpFYR47wkn6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoCountCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoCountCollection.html",
+          "hash": "dcRIBL/Rwdqc5/91keS4XG1jDBS1V/4nDDP6zT5BuDY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoFavoriteCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoFavoriteCollection.html",
+          "hash": "JvHuF32SOVg17yyAM4Y8OvST9kysEE5oz+qkj19w0KA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoPersonCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotoPersonCollection.html",
+          "hash": "HQlTvR68PmM0LQ1nnrjPfnuJavPQp7peNZMLM+rKvP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotosetCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotosetCollection.html",
+          "hash": "2jlwd57jkJQac/3VhY8y+Fv5iuamlqR0BzEWiOREa1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotosetCommentCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotosetCommentCollection.html",
+          "hash": "8ayjby2NxPmmKw6NwMRp7GHHdaVKD8c5PbZVPkH9b+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotosetPhotoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PhotosetPhotoCollection.html",
+          "hash": "saGgwIT2JHHZAY4+hLRDcey1MEdF6Sx0H/tx7Qb5a3Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PlaceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PlaceCollection.html",
+          "hash": "gBrsLuLvgFAW+ES7/Ylhto/DJ31z/51IP+zqJtyXRWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PlaceTypeInfoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PlaceTypeInfoCollection.html",
+          "hash": "h1OXTw9+wgj7FmfWBf+9sTcyNt3V4QCycyi5V07YCPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PopularPhotoCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PopularPhotoCollection.html",
+          "hash": "7PCH3BOCTBKb/j9Dn2/Bmz/cZLOghkM1d1JAamNvvhs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.PredicateCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.PredicateCollection.html",
+          "hash": "lAhEKvl7gFpW8OpOvDtqx5EgmoaeFdGCLqCQvccrMVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.ShapeDataCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.ShapeDataCollection.html",
+          "hash": "dQ3ofpc0qh5jic/NO0P5+DooVH0dKtIx0L7OrXvnjBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.SizeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.SizeCollection.html",
+          "hash": "GBlaUXUyKnsCRugcO03rPNqUwCO34MvCB3ZVVVJ292s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.StatDomainCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.StatDomainCollection.html",
+          "hash": "eWfrn137Vi5gAHNgHRWrSsJuGhAu2z0MOMMemEvvDXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.StatReferrerCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.StatReferrerCollection.html",
+          "hash": "630F98HD9qVzcdJjFgVY2cQE6Q1VISdEKo84RueR+LQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.SubscriptionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.SubscriptionCollection.html",
+          "hash": "iqLrAeUJe1S18kWYy1/0OzZLabpR951UOEc+kY4GK/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.SuggestionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.SuggestionCollection.html",
+          "hash": "TViASGPnRvBTQiyQ213lR16P6Zai9isDY2OXtvBeQvM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.TagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.TagCollection.html",
+          "hash": "Qi4GZB2605/scJ51YtAJsjzZap3ZKuJN2jK3TXK5fIw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.TicketCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.TicketCollection.html",
+          "hash": "G7xF8RrCNrX6zga6yxKZB7lrt0wpL7x94a/ghJD8kFc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.TopicCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.TopicCollection.html",
+          "hash": "82IaE7ExnDDYQ3XJZfvgJWoAGphcVSwTVJ0qsA4k4Os="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.TopicReplyCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.TopicReplyCollection.html",
+          "hash": "gIZdAia9fz76l5eIZyr3vwmT+5XD+DYdj6++KrkIyt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.ValueCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.ValueCollection.html",
+          "hash": "7O/e3sOUNnjZ9AIRB65bJ83y6xlwIUFPEpghukFGZoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Collections.html",
+          "hash": "lq9PZpOmGZR/QzbXEcWD33hDWsx4aanKXA4uBL3yJok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Contact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Contact.html",
+          "hash": "fPWsHNEl1OX7aqdNSbyAKOnTk0lEHaJ4a/fpawNtPeA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Context.html",
+          "hash": "dCPt6X4Tw2ICmI+UrDDlt/fSnNuhclT1A/rjCQRecmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.ContextGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.ContextGroup.html",
+          "hash": "kB++kBOcAr3zpzDWBScd98UsffRRlzQPDdr3ORe+Mxw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.ContextPhoto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.ContextPhoto.html",
+          "hash": "EykPLV4I/4yRX/9pyrfdDgZZG03RRPatlUtUdyY6Yhs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.ContextSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.ContextSet.html",
+          "hash": "oLndz/EcePisj10OdNk4TDI17L5h8ZyzSjLgB/nT/do="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.CsvFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.CsvFile.html",
+          "hash": "xwt2v+YuIQkuZw6WVwNjaI5bgPKjsM/6Mpy62/1iwT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.ExifTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.ExifTag.html",
+          "hash": "vSxkysx7cwqo8ogHKzTT/lJJlsQ5V0rehZQAIgAgC2I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.FavoriteContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.FavoriteContext.html",
+          "hash": "c8XQamuDBWiCVH443Z6ewSnxM/nrt9cH6xqvafXoDTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.FavoriteContextPhoto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.FavoriteContextPhoto.html",
+          "hash": "jKz7lyXRn3DzDPWi/J0zETNhZejPPujAeg1COO5Tnso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.FoundUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.FoundUser.html",
+          "hash": "CQK1vm6qHqHnBnxbYcddvWQEP5noWMLbI5r+jz6P4IM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Gallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Gallery.html",
+          "hash": "Lxv40pZtvU+Lp3uOH1ACEL+bbEGn9vz5bmWW4La2q8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GalleryPhoto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GalleryPhoto.html",
+          "hash": "XLhZjNriDRm5wjC9CMIhj9pD2HLyeFhy8ZhMFoKQcp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GeoPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GeoPermissions.html",
+          "hash": "gsJN8YgGpKYNZd8T9gavm6fOMr8E5pv1bifV3SYye2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Group.html",
+          "hash": "lv1GhHQl0vxBPKUan4lgv9inXeJp2/QFlP+O8OQdux4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GroupCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GroupCategory.html",
+          "hash": "gN8oiOEbNoMSNElXSaTH98Lrw99aIPDgvTfMtRhn+DU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GroupFullInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GroupFullInfo.html",
+          "hash": "5Z4jOzgYDU5BqQBZczKmwPo/Dudpkw34DsxLWSl56y8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GroupInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GroupInfo.html",
+          "hash": "wxF6f5eO9R46r+ttE2JItyhMxoF56ya6Z8S6+VosDmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GroupInfoRestrictions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GroupInfoRestrictions.html",
+          "hash": "++eldgHUbPczcjlFJ1WoB84S0WE2Stz/ehv8v5tYaXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GroupSearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GroupSearchResult.html",
+          "hash": "D3ocY5NFC4pFVJZTgy2Kt3p1N1+5yKHyLnRf0BWp35I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.GroupThrottleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.GroupThrottleInfo.html",
+          "hash": "zcqxYdxo+hJRe+wDT+mIS4rjk15a7I9HNBQidtLc48s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.HotTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.HotTag.html",
+          "hash": "ITebfSOgL0Hp3OMIuANA9/2MA0QDjXGPmEi+RVuSie4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Institution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Institution.html",
+          "hash": "m5/LdxELq6P4bCF4urzJ6A95emDEykLht/xE+LwXQTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Interfaces.IFlickrParsable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Interfaces.IFlickrParsable.html",
+          "hash": "ZSJlgbn/FeJY2NGbfLEx1ODsZVESWOwzGNzra0kOPhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Interfaces.html",
+          "hash": "YltjqQHFn+LI/C13ctuBd+Eer8vCaYIPAJCO+AvEvf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.License.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.License.html",
+          "hash": "J1n/9N0eYfSrqKVMlGX2S/AxKlLDHY7ESrx56tThxQI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Member.html",
+          "hash": "ic0dzQrGh025Vmqp5O0W0yu0ZHdFI5ZBVtv0F+dhAVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.MemberGroupInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.MemberGroupInfo.html",
+          "hash": "O6VC+oa75yX3VSyCjEY9yHYoBF5EA76xMoHokTYpsUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Method.html",
+          "hash": "VcFnqed9Hw6zBbA2tOZzNLrroBNajryBmVgh6c22ajY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.MethodArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.MethodArgument.html",
+          "hash": "xt8MR4AoVDjSCUK+k7QyUH++6po/T22Lf2qQ6jf3rik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.MethodError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.MethodError.html",
+          "hash": "XECzIe9x5UKqiOgeXCYptWZCQOIVNvVO8FtDl6oX/k8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Namespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Namespace.html",
+          "hash": "IdGCZRmEn+phEluDsyq7rDjKFHBmF7rogZMQu+0ppIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.NoResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.NoResponse.html",
+          "hash": "jFER7jkXg9KW7HutVzBdTl2phgvhpldQqjFnULeg9PE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.OAuthAccessToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.OAuthAccessToken.html",
+          "hash": "CAFiN/zsIo2W7IWwqCj3RynnMlwa18Uo2TTxtZWDYhs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Pair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Pair.html",
+          "hash": "HNMNPshW6CQBJoYUjCzwG4MsZVbvJ5h9hqvI3KOUv6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Person.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Person.html",
+          "hash": "xzoqI9TtSZL5Q9nRIODitPtSGPyVKnsjva0qaFOG88c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PersonLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PersonLimits.html",
+          "hash": "5vZ2Iarpm31qhlPsKVh7TF+Q/NQlvYsE/vI6kDOcM1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PersonPhotosSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PersonPhotosSummary.html",
+          "hash": "7dBh1E+CGMg8NBDEnAhW5NBsXQCw+GMmZuet2GPdW70="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Photo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Photo.html",
+          "hash": "1p8viFjDMiHLd3Ri7D7EYjvaGbaDux+NgkkslKLIBiI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoComment.html",
+          "hash": "Evs0o9edA1UW6yKIRnRUMFiyw6PTY40G6FVNv2ACQdI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoCount.html",
+          "hash": "ZAY+TzZDi0MvYwHOL5tZjKLnRiufAYoIOy8NOnEMHI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoFavorite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoFavorite.html",
+          "hash": "mfY+52bneSx/BISVsP9NWLwCrQ/jCA9mrAbLPUQ0ogM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoInfo.html",
+          "hash": "cLQ5V0leMzFitaYOMe4PayFnbDgdc8TMFZQa4Qv+BgE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoInfoNote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoInfoNote.html",
+          "hash": "56jU6CDpBgU0Htx0SIRWEfog4ERlxQ7K0UPSQMtAYjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoInfoTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoInfoTag.html",
+          "hash": "9V67RnrW4c2XENCnaRRKnbBcWr6iFoMPqnuukEJRLkQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoInfoUrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoInfoUrl.html",
+          "hash": "Aku9xCBurSgfkC+3gsQo0q97vyg6IuMLZArHMbuRxug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoPermissions.html",
+          "hash": "xAMuRUPWkAHuPqMEtYG0t5eoZ8WIGY2LM2Ps3NxKCNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PhotoPerson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PhotoPerson.html",
+          "hash": "qaF6p3lh6180INTqksKgUeSPLzzWtCCG28QaSac1dhs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Photoset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Photoset.html",
+          "hash": "KOLWCjP9tStqHJOCVrWi1iAItx7Qy+uOiyGCZz+NG58="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Place.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Place.html",
+          "hash": "8waAMg1+4gFdViJrWwWBpZg/1yY630dK10MUWJr0q6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PlaceId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PlaceId.html",
+          "hash": "wnvgSxkpZR/0D7Tvk76LUyXEJR+8zbRh/fhCDaMgQto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PlaceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PlaceInfo.html",
+          "hash": "wQAFqyRji3X5vhFRXJDENa69uW2u0npr7cPwpewhEoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PlaceTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PlaceTypeInfo.html",
+          "hash": "p7znDpa1w/hpxwih2Xyk/4l4sYB/mxKnmSc39RP+6FQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PointD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PointD.html",
+          "hash": "2yAYtzWZCyEolgfxwDJSjdi8PFibTaR5eowFhto3exc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.PopularPhoto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.PopularPhoto.html",
+          "hash": "bDQWlne7jmj7cb/DgLOPsOi6/tzdZMiijNUkBxJuuj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Predicate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Predicate.html",
+          "hash": "d7IjpKjuRxa4FIHJ80CUW34mlsGtkCllvW/sGTB2Cb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Profile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Profile.html",
+          "hash": "AljFCLOCKyLX9MQFCmymvz0OEWj9GzLUHf6twul6WCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.RawTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.RawTag.html",
+          "hash": "PRuq03CrhlZfYVnT4/tjp26gO/ClZrcdWVoXo5X4eZ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.RawTagCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.RawTagCollection.html",
+          "hash": "+CMBdDptkZFL7U/KETLq6zKR3a64LbC+X7j4L7msJkk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.ShapeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.ShapeData.html",
+          "hash": "vyy9dUi3xTqeXw0Ly5WewNHyYzqla7tT3krz0ajMb8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Size.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Size.html",
+          "hash": "uRwjzHt5ekchd8JfmzRsuQFgxxnR27H5t6k+LDVaJgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.StatDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.StatDomain.html",
+          "hash": "1yWByE3X5cLRc6PXURZzsGmICAcGlBaIQNCykmXdnLo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.StatReferrer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.StatReferrer.html",
+          "hash": "edHkwowSowkKKbJObJZ0OrQqvN+Ei4tiSzUZQs0+oRc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.StatViews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.StatViews.html",
+          "hash": "Zul2AgIGH+3+HatiDYY43CK6dCMY/TqAIHqARIodmMQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Stats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Stats.html",
+          "hash": "Qe4Bqw8Zxc6ETkMlSYIwvNAtsgaKLmCyxBV5n9D2p0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.SubCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.SubCategory.html",
+          "hash": "ny4tOiOFVWRS+0HqtLOHu1fMpoTbPWDO9E78f3OAyxs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Subscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Subscription.html",
+          "hash": "hu9fszGl7GJfKD3Dhw74EdM43tvFl7zhq43gcd0qt3M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Suggestion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Suggestion.html",
+          "hash": "OMNwTnk82L6uamNNjDtJBivLQEjs13xWMH6m+TT+Azg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Tag.html",
+          "hash": "6hjbjy+YBcGKE3/y/i7x8le26mH++OhtrefnTIXN+8g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Ticket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Ticket.html",
+          "hash": "aGjKGBJOUv6AoIDziwReBkLuoVwn3G5HBlxngaXSJt0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Topic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Topic.html",
+          "hash": "fgaW2y6ARjfFbzCBBxK0aklWaYfGuiF+rgMt+f0zLLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.TopicReply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.TopicReply.html",
+          "hash": "mDy5t3VwDKBAKgswYUCGePSQHD2OM34huIkK4/PGi/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.UnknownResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.UnknownResponse.html",
+          "hash": "tDZiyCJQ/dyYDm+eVyHj25gikfQWPeCm9fdszQQg+Z0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.UserGeoPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.UserGeoPermissions.html",
+          "hash": "TMoZIW92FRxQAF2/t60BzJYpVKD/fiI6X6Mp8qmo2YU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.UserStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.UserStatus.html",
+          "hash": "KtpH+aqXAcuRt/1V5pQC7DdbsrZ+s2dja7cfrgAXu1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.Value.html",
+          "hash": "f79czIVsexW9kow3ztM4MPSJHDedHJEngux1P4wPBNU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.VideoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.VideoInfo.html",
+          "hash": "plKrliXbt4eeMsmTVA0AHcGZTUPiA/x6AK72/H79IXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.WoeId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.WoeId.html",
+          "hash": "s5BGbqSNWZfScrD+bRnjvpw6+SYyqnRYdK/3yexEDuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Entities.html",
+          "hash": "2nY2D3X1jSZG1upZ3C7SDxVQlFu0WwQmHvFoRWbzP+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.ActivityEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.ActivityEventType.html",
+          "hash": "m+OOp69KoB8iZe3pLEzj4vqHdBfkRZWRMbGrSNz6fmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.ActivityItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.ActivityItemType.html",
+          "hash": "/Qrs/RxWehPqONerQJdTBuE/vi2XWata/5KESM5zOLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.AuthLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.AuthLevel.html",
+          "hash": "CFsPmCjGWSeAQrQWyJJPQo+k1Rthrygn5adSojz+UXo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.ContactSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.ContactSearch.html",
+          "hash": "Ls/ZhkzD6n65uSZoAwUYl2d9ZB2maAJt0av2S4Rozyk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.ContactType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.ContactType.html",
+          "hash": "C7PRy/4J1bA3Kz0W9eg5w3HiKUAwWu1H2ChW+yjyCR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.ContentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.ContentType.html",
+          "hash": "EYrDP3l2t+sCQzJGc3TkJIEn1MuMKMKQVIwXKE/RqDI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.ContentTypeSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.ContentTypeSearch.html",
+          "hash": "w1jI74OdJOtZOoHmJ2ks4pNN6eCYKE69RqGvhiJayB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.DateGranularity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.DateGranularity.html",
+          "hash": "wkwJuKz8vVqkH0QhqgNCS9uknlzvGkWcoJ1X0c9R9Ns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.GeoAccuracy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.GeoAccuracy.html",
+          "hash": "xte7Uun2dAsYHQD0DN+tpC+mmqOj37iDReS7foV6tG4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.GeoContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.GeoContext.html",
+          "hash": "HVMjUY3r9H5TDTcZUBvw+DwF2CX52aRbWbU1gi9tco8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.GeoPermissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.GeoPermissionType.html",
+          "hash": "4IDJ4/1JZJEy2bZEJM2gr4BVGriPuHoBVT22vtMnPOY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.GroupThrottleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.GroupThrottleMode.html",
+          "hash": "9GPK1SAmsJ6R1rQG2AGaGDx0TuoDV8ZUPzmhcz11O6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.HiddenFromSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.HiddenFromSearch.html",
+          "hash": "ith4WdsABXOwFCucrwivDVDJlj1Km/NBbqj16DnOUEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.LicenseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.LicenseType.html",
+          "hash": "q+YcMxeTpd1uJQ7FUEK+HFWErIMvaphr6X/X8yJO/44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.MachineTagMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.MachineTagMode.html",
+          "hash": "rzcaNpGT3Y4TOCfm2LJpRqpXfHba+88f1sGNRHmoxqM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.MediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.MediaType.html",
+          "hash": "uxkoJSIBH8RTAs31vRS0tzzGCNP2atHosNNwkcilUuc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.MemberTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.MemberTypes.html",
+          "hash": "CHazjvvdZ38Z89cJ9qnHZ/1Q+XHksK6EqB7c9Gs2fyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.MethodPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.MethodPermission.html",
+          "hash": "iACStHsCg9rhEhhiBY+mSO4uotVmv4IIUPSiaKAyaV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PermissionAddMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PermissionAddMeta.html",
+          "hash": "UYdHpJDg9zTv1mBno7BG6H85U6nSQ8BYsKd2eRCNuSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PermissionComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PermissionComment.html",
+          "hash": "R28smTk8hDTf+C9WVMHXCVMl7GwOUgPJ43u6eIdnvHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PhotoSearchExtras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PhotoSearchExtras.html",
+          "hash": "3owT7yWetVnll+KdteZbid9VH1rNy0dtxy0po9Kyfw0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PhotoSearchSortOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PhotoSearchSortOrder.html",
+          "hash": "MSSxy/O/96XFbPxxtUn9W55Qk9P1roHuxKtVnxaE1qA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PlaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PlaceType.html",
+          "hash": "QgOkZ6MTpmHgVUyQl6eZT5GILJH75bGYfrIfgE83e+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PoolPrivacy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PoolPrivacy.html",
+          "hash": "6lN0rMBNdWrDsmtS427NK8DMK7NMdRvW5t40LcDuPIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PopularSorting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PopularSorting.html",
+          "hash": "R/Rved/6KeF5GrgM5o7vCo8ijHvM98KPEJb8cxE0yJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PopularitySort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PopularitySort.html",
+          "hash": "KeMMkk55vVHx2d8kq3PaD/lQa3/8mZAiQkPpimM5IaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.PrivacyFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.PrivacyFilter.html",
+          "hash": "6DmCU/+pjiKH/QUP871o17bcPNfaxZLidNAV2Gam9lQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.RadiusUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.RadiusUnit.html",
+          "hash": "ZpRqNsX8jnMPPwV8pOwCVElZfh1Z9u7/bj5wmE4n79o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.SafetyLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.SafetyLevel.html",
+          "hash": "3TtpKyo+2jP13zW7iNnj+c//UW8nlOIx44aY0eYs5mc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.Style.html",
+          "hash": "lxfahzSgTTDs0iYNUbfbiskeDYneTn4jfpsi8G34zgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.SuggestionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.SuggestionStatus.html",
+          "hash": "xJucGb6IQEhJFRrRWi0O4CDJET5/7xwbAB8hORaTwHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.SupportedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.SupportedService.html",
+          "hash": "/9vd5l9uGc3z/lEqzbygIhLBDDmPfI+D6LP2EBmtbq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.TagMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.TagMode.html",
+          "hash": "OPAZ1RVhmigY5yb7HqX88MWDFH5wa3qN/yFy8ZXv18A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.TimeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.TimeType.html",
+          "hash": "FgHEcfzBOQ9jt9A6DKCvMVdqX4LYnQzK7ouwwIX9m8c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Enums.html",
+          "hash": "KJQJuWqUx2jOoZO1nZcWn4+EdLlTDRpSM1vJixwABOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.ApiKeyRequiredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.ApiKeyRequiredException.html",
+          "hash": "Cq/cZ17m01T/KtWJIVgi4uZ5//OTioRAfhiSeTtNtW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.AuthenticationRequiredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.AuthenticationRequiredException.html",
+          "hash": "RbicGeXTzBB8fUA52QtPkElWQr7UCIS0T+ES9DbXznU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.BadUrlFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.BadUrlFoundException.html",
+          "hash": "oPiErBhAOUEncYmiTk7MiEhqTq/4JVfeFrBec4sNSKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.CacheException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.CacheException.html",
+          "hash": "6hKS2PiJgUH3kv1pf+EbwqdYl1mN6HP3EtkGv6xq7t8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.FlickrApiException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.FlickrApiException.html",
+          "hash": "2+IR/uX1Tm6SceIiEUGivgbQOoyA4pQWx+jHcctMfHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.FlickrException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.FlickrException.html",
+          "hash": "FST1U9vNfLWA9+tlletZoUr3cOwggz0ABSHyhFA6J6s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.FlickrWebException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.FlickrWebException.html",
+          "hash": "a38U13QwlADpUygG6u/ECXFjcsm89iOpGihMMmwHNI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.FormatNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.FormatNotFoundException.html",
+          "hash": "s3iaeGM7lNj+wbRKx3AOepc3cFfrFttqgdcOAXzaIYw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.Handlers.ExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.Handlers.ExceptionHandler.html",
+          "hash": "iz/AB5MvlAlaExKbgJJHxJ8T/p1w7AgN5v965WlEt0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.Handlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.Handlers.html",
+          "hash": "f0vp3SEV9Ph6h9DIw7RAGHk8CYAuQ9NcCJRlh0ssMek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.InvalidApiKeyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.InvalidApiKeyException.html",
+          "hash": "UU+WZWZd8VkxFeVV8r4XB3uF5M+v8TWV1+k9+nqcVbo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.InvalidSignatureException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.InvalidSignatureException.html",
+          "hash": "XAuPJ1Lskt1Fl2rBuBweqdo9fhNAeX08+ip24sF9d9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.LoginFailedInvalidTokenException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.LoginFailedInvalidTokenException.html",
+          "hash": "14FKkXzmoMKf6rcI0wVikW3UQ1R2O+NjJu18K4EKySA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.MethodNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.MethodNotFoundException.html",
+          "hash": "tRLpQvXFoQjOh/6JldcaOwrvwj3b2LH399cJtMcPXFg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.MissingSignatureException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.MissingSignatureException.html",
+          "hash": "ZaMIsMMAGZqgRkrYkNjOvlfqL4TA1ntDVtVQqzpWfMY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.OAuthException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.OAuthException.html",
+          "hash": "z/9nMrmQktlqPUSDZW2kTPG/OGFAe3atW0tkzzM2eK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.ParsingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.ParsingException.html",
+          "hash": "Ze8ruvn80H05S8/Rhqw+za2ODQ4aJ7ObsvfQ1QFRdd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.PermissionDeniedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.PermissionDeniedException.html",
+          "hash": "JMYUWuSeBkznVUh2h2x+Nhr3lqm1BCOTIjx+m1GOsx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.PhotoNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.PhotoNotFoundException.html",
+          "hash": "lbljKDzLAwQ5+hGl4ipY6918BTYZHyWYuOM6DYbQv4I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.PhotosetNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.PhotosetNotFoundException.html",
+          "hash": "LC2WkYbdkhFnk2i/5FHNQUet3R0nL3iWiYr4roKlY/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.ResponseXmlException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.ResponseXmlException.html",
+          "hash": "slWpv5i1vWme1Cp+/ci/Feo1Ccjg2zCKrJcW9GHk9/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.ServiceUnavailableException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.ServiceUnavailableException.html",
+          "hash": "a328+NNzZLQkPHVwQZ79erjYOBeFIpqCQ+ik3A6wcEU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.SignatureRequiredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.SignatureRequiredException.html",
+          "hash": "+tQcy9/Oya98d4yJOL3fO4Y4frPUnu/3p3njsTP6QKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.UserNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.UserNotFoundException.html",
+          "hash": "ON0/bVD8J66NUW85Ji9EARyOJPQxrXdW8yvPymK/B04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.UserNotLoggedInInsufficientPermissionsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.UserNotLoggedInInsufficientPermissionsException.html",
+          "hash": "68hqvzbheV6P2ZQj40r0aQadETA1vmYgo4Sqr8CNIZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Exceptions.html",
+          "hash": "vu25KTZE5KXxp8bf/quwNELgMjh4pZ1ZrsYV9YMgfjc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Flickr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Flickr.html",
+          "hash": "x8j8Omlmvdk6g+zJfPbP0sEcwisl1fflO8hmuM98OgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Flickrs.Results.FlickrResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Flickrs.Results.FlickrResult-1.html",
+          "hash": "Ob9nT66x/GgixHQU2P2ZQ4T0AlDZxsiXcbRA+aBuO6I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Flickrs.Results.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Flickrs.Results.html",
+          "hash": "YRlv3v1g95rONv3LhXs3PQz0hwaBBEcuilIVmD1fopo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrActivity.html",
+          "hash": "Q4R53+XXFkVkjfZYoWXAjxDR5kaPr2tKRl+ITLWTqSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrBlogs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrBlogs.html",
+          "hash": "AxLNdXub6Lz+xsjq3c9DoglRDTwIK9o+lzcYsAehRCE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrCameras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrCameras.html",
+          "hash": "dC8omPhUuETCqSfGV2oOfZZe069ZU+xYXcK6U97vBUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrCollections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrCollections.html",
+          "hash": "7OKXUsQTnUQ0t6lqF3hGIRMeUr9YBdyZy/uctnt/8MA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrCommons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrCommons.html",
+          "hash": "L5eb2cA83uOjWg9joM0RMV2DSM4Pj6zeLnSyvscqQtw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrContacts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrContacts.html",
+          "hash": "ng+iFKomIwc5yrNZ0A/FuXN6lfJXw2YmY2LQCq3m7f8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrFavorites.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrFavorites.html",
+          "hash": "ZBqcnOnhNgTpEpMybAqAI6uJ557FBjPMRahg8qDSgck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrGalleries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrGalleries.html",
+          "hash": "nZ85mo9+RhS9z0NubXGEDIShLFqyby1EFLZX6FN9niw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrGroups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrGroups.html",
+          "hash": "l91DTiHJnPG9wWoPZ+vHzw0c8qubpAqINOSLtnDruQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrGroupsDiscuss.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrGroupsDiscuss.html",
+          "hash": "dOOz+/F4FeW5RVFcuqXFiGsmklaksd11udXFrd0FtjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrGroupsDiscussReplies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrGroupsDiscussReplies.html",
+          "hash": "T1kvbZPinjET7EJclNRD2qM0C2CbHNbJZg6AxEtviuk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrGroupsDiscussTopics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrGroupsDiscussTopics.html",
+          "hash": "dytC8ud6lvxvLrdbnLzvnWEzHjjmB5Gu3tKO7Pf7/jo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrGroupsMembers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrGroupsMembers.html",
+          "hash": "6JNYMkeYsemRh5PFqyEhVtKApqam7WzgDEU+eUe1Atc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrGroupsPools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrGroupsPools.html",
+          "hash": "j1LXYk+LZZZsb79Ub3U8Ygk3O8HIdQjPe1HTidWYJcE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrInterestingness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrInterestingness.html",
+          "hash": "hFW4OZTMqr/aOiLHQLwYecLyUIE9Lly3JLbFSPrE2XE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrMachineTags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrMachineTags.html",
+          "hash": "jEWp69k3WTg8ryKmMa9EZrnwN1/Gb1RcbBynuijachc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrOAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrOAuth.html",
+          "hash": "ZeJ14dY+ikG88YEKWOst3G5+vPIBrFBio6XigWJiX28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPanda.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPanda.html",
+          "hash": "MBmCdsARY2U+0DHA/QrSXfgzJByY8fBjuc1Sl5kDNaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPeople.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPeople.html",
+          "hash": "3v/1nT3FeUIKg0040Q+tBNhC0n8Aypl5kDwOxCrJdbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotos.html",
+          "hash": "NiLzCNuvd+BoItN5i6BIHjQz7bvTa3Xr2g/6fW+0JTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosComments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosComments.html",
+          "hash": "3FxHZuyIL0n4tZBp4EXJuQcPsnyLDVffE0zJyas3Oa8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosGeo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosGeo.html",
+          "hash": "nO9DENOwrZqQS1icEA84mxBtA0TwY9CkBmkZEWLZbPc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosLicenses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosLicenses.html",
+          "hash": "qs0jazCGoUoc7n23fxQPGPNh/ZVI47XE7uYYldyhrT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosMisc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosMisc.html",
+          "hash": "6llDD79hNrEB6DBv+jbDwSgSEWLqCHv+ShN2Dr0qSko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosNotes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosNotes.html",
+          "hash": "FCHZs1lXlTps/dStQRHkMkKUCLAsfXRhISzbnEJHzd0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosPeople.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosPeople.html",
+          "hash": "b25axOW/1+u3kOgHgsDzHZ/Du9A74W780jX1ggRoZNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosSuggestions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosSuggestions.html",
+          "hash": "gGkSGkDAgv2qV1lTHutFz/2/kjQ7kuiBnMYvnyTr5Wo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosets.html",
+          "hash": "lzf8ZyzAEUmEv72xhQTMwlKIhgDquNQiDb8bpBc9hTk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPhotosetsComments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPhotosetsComments.html",
+          "hash": "5+k1aIsAP1zFBuelJB2rFVYVLDxI9ltFiZTmFQ7rKwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPlaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPlaces.html",
+          "hash": "Z0OuxXo04S7TZrHjWmXcZSoD8RuTeQ61nD4Hlrq2ImU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPrefs.html",
+          "hash": "cv7hmSMt76nlhQUwYGCTCIvzW/W2mF7XiLWV2XDN4uA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrProfile.html",
+          "hash": "hYCXA/UzOCyAJQ+Wlg1HmgqiOhxo5WQd9mMg/7J9uRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrPush.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrPush.html",
+          "hash": "XhsnPwEZoNq1vzoSjYtBcN7FCwlUoeZ/9qyammmDbj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrReflection.html",
+          "hash": "t/RPSNmSrQmgdgr73YZlZh8thKt5NjRbNZWjKAdQn0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrStats.html",
+          "hash": "vYKFC83sRXUR7k/aJZuy+eLvxaUeQTVxsOTCsyzP490="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrTags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrTags.html",
+          "hash": "OULd/ANMzi13fMdR3/7ABIOZNCIrXElkl4p1GYKt4wY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrTest.html",
+          "hash": "cJvJCGPagcWBN7OiMgP2DrzpYewC/X7JOlV07nHkY9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrUpload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrUpload.html",
+          "hash": "GHppUVXFoLB+TaTcQ6vcY8C9tOG90vXcJvpXTPbWpzs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.IFlickrUrls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.IFlickrUrls.html",
+          "hash": "PXeh/EiWSLXNnkYkhWoR+PDlAVcwtukydIREUXis+s8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.BoundaryBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.BoundaryBox.html",
+          "hash": "G54++DzPOBPS1uFzOXF/PkuYGgoCvwrDXmxhg6RRFkk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Caching.Cache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Caching.Cache.html",
+          "hash": "OXgoJg7Mrdy/vwShlQCUSndA2x3vhSdLiM08kOfs3Y4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Caching.CacheItemPersister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Caching.CacheItemPersister.html",
+          "hash": "X2L9lCfdko2S+cjNfPGxst1ZIGcc9j96raZGF9NVhiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Caching.ICacheItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Caching.ICacheItem.html",
+          "hash": "FmyUJznLGTkEo9NxiKisxqo4w5QNxMZKzOsEJwpQ3V0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Caching.PersistentCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Caching.PersistentCache.html",
+          "hash": "zLPasHcmW3KA9JQI/CMaAiL0nN4mrWkn380B3sx5CuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Caching.ResponseCacheItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Caching.ResponseCacheItem.html",
+          "hash": "eaAwRH1Z/JR6ZrhWpAYX/x47iTTcFWw+ERyhQRH6H0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Caching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Caching.html",
+          "hash": "6nlYBjvlWtpqfvPvIVhLaXB8YOYjUO3gs1XWkpQAEb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.EchoResponseDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.EchoResponseDictionary.html",
+          "hash": "gv64xq5wQRKLLQf+BH9wchpHap8pp/QBHHOmt7pLCRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Extensions.AuthLevelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Extensions.AuthLevelExtensions.html",
+          "hash": "3PdVB2IBqkHhLumTSgAUvOjUPI/wJQ2ZVowTRxN1xfs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Extensions.CacheExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Extensions.CacheExtensions.html",
+          "hash": "dy+JpcXv/doaERUKkCmHc+eiZWTdZOyIGsrpAYTsnh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Extensions.MachineTagModeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Extensions.MachineTagModeExtensions.html",
+          "hash": "O9p4isJ9GUusSBZFOzOIqYchpfBCd1WinwxXIBphTBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Extensions.TagModeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Extensions.TagModeExtensions.html",
+          "hash": "kOFDROe4sSYKHGO/D6IsJweitpNSR3qqpGYZ0LVyrOc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.Extensions.html",
+          "hash": "+yLedt3fhIgphHZhnQknlQi6+nDeRHjNJ0RaUeClDpg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.FlickrResponder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.FlickrResponder.html",
+          "hash": "Z4s1nA3jEqHkNLpJBYe49WJTvWEtlW+nlE8vcsTFP9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.OAuthRequestToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.OAuthRequestToken.html",
+          "hash": "5cJh+CpDN8AHBTFDc/4Sx9zBh9pAlz7BROLtGmzAu3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.UtilityMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.UtilityMethods.html",
+          "hash": "VvfYjZAAD0ywG0hyUilYBtutojPvrgv1WRNgejscUIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Internals.html",
+          "hash": "hCiqOp7Ojp58Lzf8GcylcWnweOA1Qu1Y7K/BjwHoK1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.SearchOptions.PartialSearchOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.SearchOptions.PartialSearchOptions.html",
+          "hash": "MI3wbJEORBg4IzUEY1X1g4rEXnOajzKtELaxWx1hSJw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.SearchOptions.PhotoSearchOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.SearchOptions.PhotoSearchOptions.html",
+          "hash": "MKj3E1KILMExQH7xsLBxIGmzRfPreTmlu30zgUefew4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.SearchOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.SearchOptions.html",
+          "hash": "aKbXp9Bz+/GDvGT6S8l9AoJJ2dYJ+aAs+AMiO43lqKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Settings.FlickrCachingSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Settings.FlickrCachingSettings.html",
+          "hash": "useFh0sWq8o77u/MHMERZRlWuloVx5drKTdyXcspR/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Settings.FlickrSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Settings.FlickrSettings.html",
+          "hash": "DD1zriF/hAKWLQ9QkHzduG+3wpQGCRSYETdVjKJfsps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.Settings.html",
+          "hash": "fb9u+an0drvhDwOQhOhaf8s4d6waJnRaxAPwMLrGe7I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flickr.Net.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flickr.Net.Core.html",
+          "hash": "aD/tmIq/APPsXT4ifH+VYcXTNWr8YLoUUBBYuZ9EYWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "S/U2F5iVtVPnVVYlX4qOb3PpuMDxIrq8gYFV7iGguOc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "y7vJbVmGVLkKS7ZQJVD13aNAEMLUcnh/zfWlbJpdkNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "gyAeed5FuMdO1udaQENahKEj5aaRqIN0XsJrPEjZ8jo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "OiLjTpSL0NEx9yIgVCFpT5/ngnwVhNHiJKR6AqCc5u0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 268,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

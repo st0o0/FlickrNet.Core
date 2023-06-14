@@ -1,0 +1,1155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFlickrStats
+   | Flickr.Net </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFlickrStats
+   | Flickr.Net ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flickr.Net.Core.IFlickrStats">
+  
+  
+  <h1 id="Flickr_Net_Core_IFlickrStats" data-uid="Flickr.Net.Core.IFlickrStats" class="text-break">Interface IFlickrStats
+  </h1>
+  <div class="markdown level0 summary"><p>The flickr stats.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flickr.Net.Core.html">Flickr.Net.Core</a></h6>
+  <h6><strong>Assembly</strong>: Flickr.Net.Core.dll</h6>
+  <h5 id="Flickr_Net_Core_IFlickrStats_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFlickrStats</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetCollectionDomainsAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetCollectionDomainsAsync(DateTime%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L358">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetCollectionDomainsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetCollectionDomainsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetCollectionDomainsAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetCollectionDomainsAsync(DateTime,System.String,System.Int32,System.Int32,CancellationToken)">GetCollectionDomainsAsync(DateTime, String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referring domains for a collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatDomainCollection&gt; GetCollectionDomainsAsync(DateTime date, string collectionId = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>Stats will be returned for this date. A day according to Flickr Stats starts at midnight GMT
+for all users, and timestamps will automatically be rounded down to the start of the day.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td><p>The id of the collection to get stats for. If not provided, stats for all collections will
+be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of domains to return per page. If this argument is omitted, it defaults to 25. The
+maximum allowed value is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatDomainCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetCollectionReferrersAsync_DateTime_System_String_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetCollectionReferrersAsync(DateTime%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L376">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetCollectionReferrersAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetCollectionReferrersAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetCollectionReferrersAsync_DateTime_System_String_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetCollectionReferrersAsync(DateTime,System.String,System.String,System.Int32,System.Int32,CancellationToken)">GetCollectionReferrersAsync(DateTime, String, String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referrers from a given domain to a collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatReferrerCollection&gt; GetCollectionReferrersAsync(DateTime date, string domain, string collectionId = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">domain</span></td>
+        <td><p>The domain to return referrers for. This should be a hostname (eg: &quot;flickr.com&quot;) with no
+protocol or pathname.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td><p>The collection to return referrers for. If missing then referrers for all photosets will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of the results to return. Default is 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>The number of referrers to return per page. The default is 25 and the maximum is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatReferrerCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetCollectionStatsAsync_DateTime_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetCollectionStatsAsync(DateTime%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L385">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetCollectionStatsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetCollectionStatsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetCollectionStatsAsync_DateTime_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetCollectionStatsAsync(DateTime,System.String,CancellationToken)">GetCollectionStatsAsync(DateTime, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns the number of views on the given date for the given collection. Only <see cref="!:Stats.Views"></see> will be populated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Stats&gt; GetCollectionStatsAsync(DateTime date, string collectionId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td><p>The collection to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Stats</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetCsvFilesAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetCsvFilesAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L392">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetCsvFilesAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetCsvFilesAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetCsvFilesAsync_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetCsvFilesAsync(CancellationToken)">GetCsvFilesAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of CSV files of archived stats from Flickr.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;CsvFileCollection&gt; GetCsvFilesAsync(CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">CsvFileCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Flickr_Net_Core_IFlickrStats_GetCsvFilesAsync_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Archived files only available till the 1st June 2010.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotoDomainsAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotoDomainsAsync(DateTime%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L412">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotoDomainsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotoDomainsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotoDomainsAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotoDomainsAsync(DateTime,System.String,System.Int32,System.Int32,CancellationToken)">GetPhotoDomainsAsync(DateTime, String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referring domains for a photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatDomainCollection&gt; GetPhotoDomainsAsync(DateTime date, string photoId = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>Stats will be returned for this date. A day according to Flickr Stats starts at midnight GMT
+for all users, and timestamps will automatically be rounded down to the start of the day.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The id of the photo to get stats for. If not provided, stats for all photos will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of domains to return per page. If this argument is omitted, it defaults to 25. The
+maximum allowed value is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatDomainCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotoReferrersAsync_DateTime_System_String_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotoReferrersAsync(DateTime%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L430">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotoReferrersAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotoReferrersAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotoReferrersAsync_DateTime_System_String_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotoReferrersAsync(DateTime,System.String,System.String,System.Int32,System.Int32,CancellationToken)">GetPhotoReferrersAsync(DateTime, String, String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referrers from a given domain to a photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatReferrerCollection&gt; GetPhotoReferrersAsync(DateTime date, string domain, string photoId = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">domain</span></td>
+        <td><p>The domain to return referrers for. This should be a hostname (eg: &quot;flickr.com&quot;) with no
+protocol or pathname.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The photo to return referrers for. If missing then referrers for all photos will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of the results to return. Default is 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>The number of referrers to return per page. The default is 25 and the maximum is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatReferrerCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotosetDomainsAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotosetDomainsAsync(DateTime%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L450">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotosetDomainsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotosetDomainsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotosetDomainsAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotosetDomainsAsync(DateTime,System.String,System.Int32,System.Int32,CancellationToken)">GetPhotosetDomainsAsync(DateTime, String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referring domains for a photoset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatDomainCollection&gt; GetPhotosetDomainsAsync(DateTime date, string photosetId = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>Stats will be returned for this date. A day according to Flickr Stats starts at midnight GMT
+for all users, and timestamps will automatically be rounded down to the start of the day.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photosetId</span></td>
+        <td><p>The id of the photoset to get stats for. If not provided, stats for all sets will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of domains to return per page. If this argument is omitted, it defaults to 25. The
+maximum allowed value is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatDomainCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotosetReferrersAsync_DateTime_System_String_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotosetReferrersAsync(DateTime%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L468">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotosetReferrersAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotosetReferrersAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotosetReferrersAsync_DateTime_System_String_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotosetReferrersAsync(DateTime,System.String,System.String,System.Int32,System.Int32,CancellationToken)">GetPhotosetReferrersAsync(DateTime, String, String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referrers from a given domain to a photoset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatReferrerCollection&gt; GetPhotosetReferrersAsync(DateTime date, string domain, string photosetId = null, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">domain</span></td>
+        <td><p>The domain to return referrers for. This should be a hostname (eg: &quot;flickr.com&quot;) with no
+protocol or pathname.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photosetId</span></td>
+        <td><p>The photoset to return referrers for. If missing then referrers for all photosets will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of the results to return. Default is 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>The number of referrers to return per page. The default is 25 and the maximum is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatReferrerCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotosetStatsAsync_DateTime_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotosetStatsAsync(DateTime%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L477">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotosetStatsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotosetStatsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotosetStatsAsync_DateTime_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotosetStatsAsync(DateTime,System.String,CancellationToken)">GetPhotosetStatsAsync(DateTime, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns the number of views and comments on the given date for the given photoset. Only <see cref="!:Stats.Views"></see> and <see cref="!:Stats.Comments"></see> will be populated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Stats&gt; GetPhotosetStatsAsync(DateTime date, string photosetId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photosetId</span></td>
+        <td><p>The photoset to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Stats</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotoStatsAsync_DateTime_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotoStatsAsync(DateTime%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L485">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotoStatsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotoStatsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotoStatsAsync_DateTime_System_String_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotoStatsAsync(DateTime,System.String,CancellationToken)">GetPhotoStatsAsync(DateTime, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns the number of views, comments and favorites on the given date for the given photo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Stats&gt; GetPhotoStatsAsync(DateTime date, string photoId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photoId</span></td>
+        <td><p>The photo to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Stats</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotostreamDomainsAsync_DateTime_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotostreamDomainsAsync(DateTime%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L502">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotostreamDomainsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotostreamDomainsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotostreamDomainsAsync_DateTime_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotostreamDomainsAsync(DateTime,System.Int32,System.Int32,CancellationToken)">GetPhotostreamDomainsAsync(DateTime, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referring domains for a photostream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatDomainCollection&gt; GetPhotostreamDomainsAsync(DateTime date, int page = 0, int perPage = 0, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>Stats will be returned for this date. A day according to Flickr Stats starts at midnight GMT
+for all users, and timestamps will automatically be rounded down to the start of the day.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of domains to return per page. If this argument is omitted, it defaults to 25. The
+maximum allowed value is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatDomainCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotostreamReferrersAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotostreamReferrersAsync(DateTime%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L517">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotostreamReferrersAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotostreamReferrersAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotostreamReferrersAsync_DateTime_System_String_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotostreamReferrersAsync(DateTime,System.String,System.Int32,System.Int32,CancellationToken)">GetPhotostreamReferrersAsync(DateTime, String, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get a list of referrers from a given domain to a photostream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatReferrerCollection&gt; GetPhotostreamReferrersAsync(DateTime date, string domain, int page, int perPage, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">domain</span></td>
+        <td><p>The domain to return referrers for. This should be a hostname (eg: &quot;flickr.com&quot;) with no
+protocol or pathname.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of the results to return. Default is 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>The number of referrers to return per page. The default is 25 and the maximum is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatReferrerCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPhotostreamStatsAsync_DateTime_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPhotostreamStatsAsync(DateTime%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L525">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPhotostreamStatsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotostreamStatsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPhotostreamStatsAsync_DateTime_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPhotostreamStatsAsync(DateTime,CancellationToken)">GetPhotostreamStatsAsync(DateTime, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Returns the number of views on the given date for the users photostream. Only <see cref="!:Stats.Views"></see> will be populated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Stats&gt; GetPhotostreamStatsAsync(DateTime date, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return stats for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Stats</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetPopularPhotosAsync_DateTime_PopularitySort_System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetPopularPhotosAsync(DateTime%2CPopularitySort%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L547">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetPopularPhotosAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetPopularPhotosAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetPopularPhotosAsync_DateTime_PopularitySort_System_Int32_System_Int32_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetPopularPhotosAsync(DateTime,PopularitySort,System.Int32,System.Int32,CancellationToken)">GetPopularPhotosAsync(DateTime, PopularitySort, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>List the photos with the most views, comments or favorites.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PopularPhotoCollection&gt; GetPopularPhotosAsync(DateTime date, PopularitySort sort, int page, int perPage, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>Stats will be returned for this date. A day according to Flickr Stats starts at midnight GMT
+for all users, and timestamps will automatically be rounded down to the start of the day. If
+no date is provided, all time view counts will be returned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PopularitySort</span></td>
+        <td><span class="parametername">sort</span></td>
+        <td><p>The order in which to sort returned photos. Defaults to views. The possible values are
+views, comments and favorites.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page of results to return. If this argument is omitted, it defaults to 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">perPage</span></td>
+        <td><p>Number of photos to return per page. If this argument is omitted, it defaults to 25. The
+maximum allowed value is 100.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">PopularPhotoCollection</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats_GetTotalViewsAsync_DateTime_CancellationToken_.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats.GetTotalViewsAsync(DateTime%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L554">View Source</a>
+  </span>
+  <a id="Flickr_Net_Core_IFlickrStats_GetTotalViewsAsync_" data-uid="Flickr.Net.Core.IFlickrStats.GetTotalViewsAsync*"></a>
+  <h4 id="Flickr_Net_Core_IFlickrStats_GetTotalViewsAsync_DateTime_CancellationToken_" data-uid="Flickr.Net.Core.IFlickrStats.GetTotalViewsAsync(DateTime,CancellationToken)">GetTotalViewsAsync(DateTime, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get the overall view counts for an account on a given date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StatViews&gt; GetTotalViewsAsync(DateTime date, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>The date to return the overall view count for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">StatViews</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/new/dev/apiSpec/new?filename=Flickr_Net_Core_IFlickrStats.md&amp;value=---%0Auid%3A%20Flickr.Net.Core.IFlickrStats%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/st0o0/Flickr.Net/blob/dev/src/Flickr.Net.Core/Flickrs/Flickr_Stats_Async.cs/#L337" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Flickr.Net
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
