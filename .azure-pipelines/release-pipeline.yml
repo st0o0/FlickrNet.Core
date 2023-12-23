@@ -11,12 +11,7 @@ trigger:
       - CHANGELOG.md
       - CONTRIBUTING.md
 
-pr:
-  branches:
-    include:
-      - dev
-  autoCancel: true
-  drafts: false
+pr: none
 
 variables:
   - template: variables.yml
