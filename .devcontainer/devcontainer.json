@@ -1,8 +1,14 @@
 {
 	"name": "Flickr.Net",
-	"service": "devhost",
+	"image": "mcr.microsoft.com/devcontainers/dotnet",
 	"remoteUser": "root",
-	"postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+	//"postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+	"features": {
+		"ghcr.io/devcontainers/features/dotnet": {
+			"version": "8.0"
+		},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	  },
 	"customizations": {
 		"vscode": {
 			"extensions": [
