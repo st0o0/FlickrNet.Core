@@ -195,26 +195,26 @@ public static class UtilityMethods
     /// </summary>
     /// <param name="memberTypeId">The member type id.</param>
     /// <returns>A MemberTypes.</returns>
-    public static MemberType ParseIdToMemberType(string memberTypeId)
+    public static MemberTypes ParseIdToMemberType(string memberTypeId)
     {
         return memberTypeId switch
         {
-            "1" => MemberType.Narwhal,
-            "2" => MemberType.Member,
-            "3" => MemberType.Moderator,
-            "4" => MemberType.Admin,
-            _ => MemberType.None,
+            "1" => MemberTypes.Narwhal,
+            "2" => MemberTypes.Member,
+            "3" => MemberTypes.Moderator,
+            "4" => MemberTypes.Admin,
+            _ => MemberTypes.None,
         };
     }
 
-    internal static MemberType ParseRoleToMemberType(string memberRole)
+    internal static MemberTypes ParseRoleToMemberType(string memberRole)
     {
         return memberRole switch
         {
-            "admin" => MemberType.Admin,
-            "moderator" => MemberType.Moderator,
-            "member" => MemberType.Member,
-            _ => MemberType.None,
+            "admin" => MemberTypes.Admin,
+            "moderator" => MemberTypes.Moderator,
+            "member" => MemberTypes.Member,
+            _ => MemberTypes.None,
         };
     }
 

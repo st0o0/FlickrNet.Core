@@ -25,5 +25,5 @@ public record Member : FlickrEntityBase<NsId>, IBuddyIcon
     /// <summary>
     /// </summary>
     [JsonPropertyName("membertype")]
-    public MemberType Type { get; set; }
+    public MemberTypes Type { get; set; }
 }

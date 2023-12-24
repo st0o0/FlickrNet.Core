@@ -7,7 +7,7 @@ namespace Flickr.Net;
 /// </summary>
 public partial class Flickr : IFlickrGroupsMembers
 {
-    async Task<Members> IFlickrGroupsMembers.GetListAsync(string groupId, MemberType memberTypes, int page, int perPage, CancellationToken cancellationToken)
+    async Task<Members> IFlickrGroupsMembers.GetListAsync(string groupId, MemberTypes memberTypes, int page, int perPage, CancellationToken cancellationToken)
     {
         CheckRequiresAuthentication();
 
@@ -21,7 +21,7 @@ public partial class Flickr : IFlickrGroupsMembers
 
         parameters.AppendIf("page", page, x => x > 0, x => x.ToString(System.Globalization.NumberFormatInfo.InvariantInfo));
 
-        parameters.AppendIf("membertypes", memberTypes, x => x != MemberType.None, x => x.ToFlickrString());
+        parameters.AppendIf("membertypes", memberTypes, x => x != MemberTypes.None, x => x.ToFlickrString());
 
         return await GetResponseAsync<Members>(parameters, cancellationToken);
     }
@@ -49,5 +49,5 @@ public interface IFlickrGroupsMembers
     /// The number of members to return per page (default is 100, max is 500).
     /// </param>
     /// <param name="cancellationToken"></param>
-    Task<Members> GetListAsync(string groupId, MemberType memberTypes = MemberType.None, int page = 0, int perPage = 0, CancellationToken cancellationToken = default);
+    Task<Members> GetListAsync(string groupId, MemberTypes memberTypes = MemberTypes.None, int page = 0, int perPage = 0, CancellationToken cancellationToken = default);
 }

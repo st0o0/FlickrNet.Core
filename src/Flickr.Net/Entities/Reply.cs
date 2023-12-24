@@ -25,7 +25,7 @@ public record Reply : FlickrEntityBase<Id>, IBuddyIcon
     /// <summary>
     /// </summary>
     [JsonPropertyName("role")]
-    public MemberType Role { get; set; }
+    public MemberTypes Role { get; set; }
 
     /// <summary>
     /// </summary>

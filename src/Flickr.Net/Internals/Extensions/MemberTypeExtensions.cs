@@ -9,26 +9,26 @@ public static class MemberTypeExtensions
     /// </summary>
     /// <param name="memberTypes">The member types.</param>
     /// <returns>A string.</returns>
-    internal static string ToFlickrString(this MemberType memberTypes)
+    internal static string ToFlickrString(this MemberTypes memberTypes)
     {
         List<string> types = [];
 
-        if (memberTypes.Has(MemberType.Narwhal))
+        if (memberTypes.Has(MemberTypes.Narwhal))
         {
             types.Add("1");
         }
 
-        if (memberTypes.Has(MemberType.Member))
+        if (memberTypes.Has(MemberTypes.Member))
         {
             types.Add("2");
         }
 
-        if (memberTypes.Has(MemberType.Moderator))
+        if (memberTypes.Has(MemberTypes.Moderator))
         {
             types.Add("3");
         }
 
-        if (memberTypes.Has(MemberType.Admin))
+        if (memberTypes.Has(MemberTypes.Admin))
         {
             types.Add("4");
         }
@@ -38,28 +38,28 @@ public static class MemberTypeExtensions
 
     /// <summary>
     /// </summary>
-    public static bool Has(this MemberType type, in MemberType value)
+    public static bool Has(this MemberTypes type, in MemberTypes value)
     {
         return value <= type;
     }
 
     /// <summary>
     /// </summary>
-    public static bool Is(this MemberType type, MemberType value)
+    public static bool Is(this MemberTypes type, MemberTypes value)
     {
         return type == value;
     }
 
     /// <summary>
     /// </summary>
-    public static MemberType Add(this MemberType type, MemberType value)
+    public static MemberTypes Add(this MemberTypes type, MemberTypes value)
     {
         return type | value;
     }
 
     /// <summary>
     /// </summary>
-    public static MemberType Remove(this MemberType type, MemberType value)
+    public static MemberTypes Remove(this MemberTypes type, MemberTypes value)
     {
         return type & ~value;
     }

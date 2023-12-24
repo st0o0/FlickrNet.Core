@@ -39,8 +39,8 @@ public class ReplyTests
     Assert.False(result.HasError);
     var items = result.Content;
     Assert.IsType<Reply>(items);
-    Assert.IsType<MemberType>(items.Role);
-    Assert.Equal(MemberType.Admin, items.Role);
+    Assert.IsType<MemberTypes>(items.Role);
+    Assert.Equal(MemberTypes.Admin, items.Role);
     Assert.False(items.IsPro);
     Assert.True(items.CanEdit);
     Assert.True(items.CanDelete);
@@ -145,7 +145,7 @@ public class ReplyTests
     Assert.False(items.Topic.CanDelete);
     Assert.False(items.Topic.CanEdit);
     Assert.IsType<Reply>(items.Values[0]);
-    Assert.IsType<MemberType>(items.Values[0].Role);
-    Assert.Equal(MemberType.Member, items.Values[0].Role);
+    Assert.IsType<MemberTypes>(items.Values[0].Role);
+    Assert.Equal(MemberTypes.Member, items.Values[0].Role);
   }
 }
